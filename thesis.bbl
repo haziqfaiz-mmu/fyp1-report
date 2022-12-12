@@ -1,0 +1,838 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Blake%
+, Kohli%
+\BCBL {}\ \BBA {} Rother%
+}{%
+Blake%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+markovbook}
+\APACinsertmetastar {%
+markovbook}%
+\begin{APACrefauthors}%
+Blake, A.%
+, Kohli, P.%
+\BCBL {}\ \BBA {} Rother, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Markov Random Fields for Vision and Image Processing} {Markov
+  random fields for vision and image processing}.
+\newblock
+\APACaddressPublisher{Cambridge, Massachusetts}{MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Carion%
+\ \protect \BOthers {.}}{%
+Carion%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+detr}
+\APACinsertmetastar {%
+detr}%
+\begin{APACrefauthors}%
+Carion, N.%
+, Massa, F.%
+, Synnaeve, G.%
+, Usunier, N.%
+, Kirillov, A.%
+\BCBL {}\ \BBA {} Zagoruyko, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {End-to-End Object Detection with Transformers}
+  {End-to-end object detection with transformers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2005.12872}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2005.12872} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chi%
+, Wei%
+\BCBL {}\ \BBA {} Hu%
+}{%
+Chi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+regionnet++}
+\APACinsertmetastar {%
+regionnet++}%
+\begin{APACrefauthors}%
+Chi, C.%
+, Wei, F.%
+\BCBL {}\ \BBA {} Hu, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {RelationNet++: Bridging Visual Representations for
+  Object Detection via Transformer Decoder} {Relationnet++: Bridging visual
+  representations for object detection via transformer decoder}.{\BBCQ}
+\newblock
+\BIn{} H.~Larochelle, M.~Ranzato, R.~Hadsell, M.~Balcan\BCBL {}\ \BBA {}
+  H.~Lin\ (\BEDS), \APACrefbtitle {Advances in Neural Information Processing
+  Systems} {Advances in neural information processing systems}\ (\BVOL~33,
+  \BPGS\ 13564--13574).
+\newblock
+\APACaddressPublisher{}{Curran Associates, Inc.}
+\newblock
+\begin{APACrefURL}
+  \url{https://proceedings.neurips.cc/paper/2020/file/9d684c589d67031a627ad33d59db65e5-Paper.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dosovitskiy%
+\ \protect \BOthers {.}}{%
+Dosovitskiy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+16x16}
+\APACinsertmetastar {%
+16x16}%
+\begin{APACrefauthors}%
+Dosovitskiy, A.%
+, Beyer, L.%
+, Kolesnikov, A.%
+, Weissenborn, D.%
+, Zhai, X.%
+, Unterthiner, T.%
+\BDBL {}Houlsby, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An Image is Worth 16x16 Words: Transformers for Image
+  Recognition at Scale} {An image is worth 16x16 words: Transformers for image
+  recognition at scale}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2010.11929}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2010.11929} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gu%
+, Hu%
+, Wang%
+, Wei%
+\BCBL {}\ \BBA {} Dai%
+}{%
+Gu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+learnregionfeat}
+\APACinsertmetastar {%
+learnregionfeat}%
+\begin{APACrefauthors}%
+Gu, J.%
+, Hu, H.%
+, Wang, L.%
+, Wei, Y.%
+\BCBL {}\ \BBA {} Dai, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Learning Region Features for Object Detection} {Learning
+  region features for object detection}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1803.07066}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1803.07066} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Krizhevsky%
+, Sutskever%
+\BCBL {}\ \BBA {} Hinton%
+}{%
+Krizhevsky%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+alexnet}
+\APACinsertmetastar {%
+alexnet}%
+\begin{APACrefauthors}%
+Krizhevsky, A.%
+, Sutskever, I.%
+\BCBL {}\ \BBA {} Hinton, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ImageNet Classification with Deep Convolutional Neural
+  Networks} {Imagenet classification with deep convolutional neural
+  networks}.{\BBCQ}
+\newblock
+\BIn{} F.~Pereira, C.~Burges, L.~Bottou\BCBL {}\ \BBA {} K.~Weinberger\
+  (\BEDS), \APACrefbtitle {Advances in Neural Information Processing Systems}
+  {Advances in neural information processing systems}\ (\BVOL~25).
+\newblock
+\APACaddressPublisher{}{Curran Associates, Inc.}
+\newblock
+\begin{APACrefURL}
+  \url{https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Leach%
+, Popien%
+, Goodman%
+\BCBL {}\ \BBA {} Tellman%
+}{%
+Leach%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+edseee.988427220220717}
+\APACinsertmetastar {%
+edseee.988427220220717}%
+\begin{APACrefauthors}%
+Leach, N\BPBI R.%
+, Popien, P.%
+, Goodman, M\BPBI C.%
+\BCBL {}\ \BBA {} Tellman, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Leveraging convolutional neural networks for semantic
+  segmentation of global floods with PlanetScope imagery.} {Leveraging
+  convolutional neural networks for semantic segmentation of global floods with
+  planetscope imagery.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IGARSS 2022 - 2022 IEEE International Geoscience and
+  Remote Sensing Symposium, Geoscience and Remote Sensing Symposium, IGARSS
+  2022 - 2022 IEEE International}{}{}{314 - 317}.
+\newblock
+\begin{APACrefURL}
+  \url{https://go.openathens.net/redirector/mmu.edu.my?url={UrlEncode(https://search.ebscohost.com/login.aspx?direct=true&AuthType=shib&db=edseee&AN=edseee.9884272&site=eds-live)},
+  Year = {2022},} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+\ \protect \BOthers {.}}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+abcnet}
+\APACinsertmetastar {%
+abcnet}%
+\begin{APACrefauthors}%
+Li, R.%
+, Zheng, S.%
+, Zhang, C.%
+, Duan, C.%
+, Wang, L.%
+\BCBL {}\ \BBA {} Atkinson, P\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ABCNet: Attentive bilateral contextual network for
+  efficient semantic segmentation of Fine-Resolution remotely sensed imagery}
+  {Abcnet: Attentive bilateral contextual network for efficient semantic
+  segmentation of fine-resolution remotely sensed imagery}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{181}{}{84-98}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0924271621002379}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.isprsjprs.2021.09.005}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+W.~Liu%
+, Zhang%
+, Lin%
+\BCBL {}\ \BBA {} Liu%
+}{%
+W.~Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+enlarge-receptive-field}
+\APACinsertmetastar {%
+enlarge-receptive-field}%
+\begin{APACrefauthors}%
+Liu, W.%
+, Zhang, C.%
+, Lin, G.%
+\BCBL {}\ \BBA {} Liu, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{sep}{}.
+\newblock
+{\BBOQ}\APACrefatitle {CRCNet: Few-Shot Segmentation with Cross-Reference and
+  Region–Global Conditional Networks} {Crcnet: Few-shot segmentation with
+  cross-reference and region–global conditional networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Int. J. Comput. Vision}{130}{12}{3140–3157}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1007/s11263-022-01677-7}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11263-022-01677-7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Z.~Liu%
+, Hu%
+\BCBL {}\ \protect \BOthers {.}}{%
+Z.~Liu%
+, Hu%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+swin-v2}
+\APACinsertmetastar {%
+swin-v2}%
+\begin{APACrefauthors}%
+Liu, Z.%
+, Hu, H.%
+, Lin, Y.%
+, Yao, Z.%
+, Xie, Z.%
+, Wei, Y.%
+\BDBL {}Guo, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Swin Transformer {V2:} Scaling Up Capacity and
+  Resolution} {Swin transformer {V2:} scaling up capacity and
+  resolution}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2111.09883}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2111.09883} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Z.~Liu%
+, Lin%
+\BCBL {}\ \protect \BOthers {.}}{%
+Z.~Liu%
+, Lin%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+swin-v1}
+\APACinsertmetastar {%
+swin-v1}%
+\begin{APACrefauthors}%
+Liu, Z.%
+, Lin, Y.%
+, Cao, Y.%
+, Hu, H.%
+, Wei, Y.%
+, Zhang, Z.%
+\BDBL {}Guo, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Swin Transformer: Hierarchical Vision Transformer using
+  Shifted Windows} {Swin transformer: Hierarchical vision transformer using
+  shifted windows}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2103.14030}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2103.14030} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Long%
+, Shelhamer%
+\BCBL {}\ \BBA {} Darrell%
+}{%
+Long%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+7298965}
+\APACinsertmetastar {%
+7298965}%
+\begin{APACrefauthors}%
+Long, J.%
+, Shelhamer, E.%
+\BCBL {}\ \BBA {} Darrell, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fully convolutional networks for semantic segmentation}
+  {Fully convolutional networks for semantic segmentation}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2015 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)} {2015 ieee conference on computer vision and pattern
+  recognition (cvpr)}\ (\BPG~3431-3440).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/CVPR.2015.7298965} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lowe%
+}{%
+Lowe%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+SIFT}
+\APACinsertmetastar {%
+SIFT}%
+\begin{APACrefauthors}%
+Lowe, D\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Distinctive Image Features from Scale-Invariant
+  Keypoints} {Distinctive image features from scale-invariant
+  keypoints}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Int. J. Comput. Vision}{60}{2}{91--110}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1023/B:VISI.0000029664.99615.94}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1023/B:VISI.0000029664.99615.94} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Oktay%
+\ \protect \BOthers {.}}{%
+Oktay%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+attention-unet}
+\APACinsertmetastar {%
+attention-unet}%
+\begin{APACrefauthors}%
+Oktay, O.%
+, Schlemper, J.%
+, Folgoc, L\BPBI L.%
+, Lee, M\BPBI C\BPBI H.%
+, Heinrich, M\BPBI P.%
+, Misawa, K.%
+\BDBL {}Rueckert, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Attention U-Net: Learning Where to Look for the
+  Pancreas} {Attention u-net: Learning where to look for the pancreas}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1804.03999}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1804.03999} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pandey%
+, Kumar%
+\BCBL {}\ \BBA {} Chakraborty%
+}{%
+Pandey%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+9554290}
+\APACinsertmetastar {%
+9554290}%
+\begin{APACrefauthors}%
+Pandey, A.%
+, Kumar, D.%
+\BCBL {}\ \BBA {} Chakraborty, D\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Soil Type Classification from High Resolution Satellite
+  Images with Deep CNN} {Soil type classification from high resolution
+  satellite images with deep cnn}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2021 IEEE International Geoscience and Remote Sensing
+  Symposium IGARSS} {2021 ieee international geoscience and remote sensing
+  symposium igarss}\ (\BPG~4087-4090).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/IGARSS47720.2021.9554290} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Riquelme%
+\ \protect \BOthers {.}}{%
+Riquelme%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+scaling-sparse}
+\APACinsertmetastar {%
+scaling-sparse}%
+\begin{APACrefauthors}%
+Riquelme, C.%
+, Puigcerver, J.%
+, Mustafa, B.%
+, Neumann, M.%
+, Jenatton, R.%
+, Pinto, A\BPBI S.%
+\BDBL {}Houlsby, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Scaling Vision with Sparse Mixture of Experts} {Scaling
+  vision with sparse mixture of experts}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2106.05974}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2106.05974} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ronneberger%
+, Fischer%
+\BCBL {}\ \BBA {} Brox%
+}{%
+Ronneberger%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+unet}
+\APACinsertmetastar {%
+unet}%
+\begin{APACrefauthors}%
+Ronneberger, O.%
+, Fischer, P.%
+\BCBL {}\ \BBA {} Brox, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {U-Net: Convolutional Networks for Biomedical Image
+  Segmentation} {U-net: Convolutional networks for biomedical image
+  segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1505.04597}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1505.04597} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schroff%
+, Criminisi%
+\BCBL {}\ \BBA {} Zisserman%
+}{%
+Schroff%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Schroff2008ObjectCS}
+\APACinsertmetastar {%
+Schroff2008ObjectCS}%
+\begin{APACrefauthors}%
+Schroff, F.%
+, Criminisi, A.%
+\BCBL {}\ \BBA {} Zisserman, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Object Class Segmentation using Random Forests} {Object
+  class segmentation using random forests}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {BMVC.} {Bmvc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Talal%
+\ \protect \BOthers {.}}{%
+Talal%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+edseee.864274320181101}
+\APACinsertmetastar {%
+edseee.864274320181101}%
+\begin{APACrefauthors}%
+Talal, M.%
+, Panthakkan, A.%
+, Mukhtar, H.%
+, Mansoor, W.%
+, Almansoori, S.%
+\BCBL {}\ \BBA {} Ahmad, H\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection of Water-Bodies Using Semantic Segmentation.}
+  {Detection of water-bodies using semantic segmentation.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{2018 International Conference on Signal Processing and
+  Information Security (ICSPIS), Signal Processing and Information Security
+  (ICSPIS), 2018 International Conference on}{}{}{1 - 4}.
+\newblock
+\begin{APACrefURL}
+  \url{https://go.openathens.net/redirector/mmu.edu.my?url={UrlEncode(https://search.ebscohost.com/login.aspx?direct=true&AuthType=shib&db=edseee&AN=edseee.8642743&site=eds-live)},
+  Year = {2018},} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Teichmann%
+\ \BBA {} Cipolla%
+}{%
+Teichmann%
+\ \BBA {} Cipolla%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+crf-semantic}
+\APACinsertmetastar {%
+crf-semantic}%
+\begin{APACrefauthors}%
+Teichmann, M\BPBI T\BPBI T.%
+\BCBT {}\ \BBA {} Cipolla, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Convolutional CRFs for Semantic Segmentation}
+  {Convolutional crfs for semantic segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1805.04777}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1805.04777} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thoma%
+}{%
+Thoma%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+DBLP:journals/corr/Thoma16a}
+\APACinsertmetastar {%
+DBLP:journals/corr/Thoma16a}%
+\begin{APACrefauthors}%
+Thoma, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Survey of Semantic Segmentation} {A survey of semantic
+  segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1602.06541}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1602.06541} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vaswani%
+\ \protect \BOthers {.}}{%
+Vaswani%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+attention-is-all-you-need}
+\APACinsertmetastar {%
+attention-is-all-you-need}%
+\begin{APACrefauthors}%
+Vaswani, A.%
+, Shazeer, N.%
+, Parmar, N.%
+, Uszkoreit, J.%
+, Jones, L.%
+, Gomez, A\BPBI N.%
+\BDBL {}Polosukhin, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Attention Is All You Need} {Attention is all you
+  need}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1706.03762}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1706.03762} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Fang%
+, Zhang%
+, Li%
+\BCBL {}\ \BBA {} Duan%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+unetformer}
+\APACinsertmetastar {%
+unetformer}%
+\begin{APACrefauthors}%
+Wang, L.%
+, Fang, S.%
+, Zhang, C.%
+, Li, R.%
+\BCBL {}\ \BBA {} Duan, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Efficient Hybrid Transformer: Learning Global-local
+  Context for Urban Sence Segmentation} {Efficient hybrid transformer: Learning
+  global-local context for urban sence segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2109.08937}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2109.08937} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yu%
+\ \protect \BOthers {.}}{%
+Yu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+YU201882}
+\APACinsertmetastar {%
+YU201882}%
+\begin{APACrefauthors}%
+Yu, H.%
+, Yang, Z.%
+, Tan, L.%
+, Wang, Y.%
+, Sun, W.%
+, Sun, M.%
+\BCBL {}\ \BBA {} Tang, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Methods and datasets on semantic segmentation: A review}
+  {Methods and datasets on semantic segmentation: A review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neurocomputing}{304}{}{82-103}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0925231218304077}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.neucom.2018.03.037}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yuan%
+\ \protect \BOthers {.}}{%
+Yuan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Yuan2020DeepLI}
+\APACinsertmetastar {%
+Yuan2020DeepLI}%
+\begin{APACrefauthors}%
+Yuan, Q.%
+, Shen, H.%
+, Li, T.%
+, Li, Z.%
+, Li, S.%
+, Jiang, Y.%
+\BDBL {}pei Zhang, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning in environmental remote sensing:
+  Achievements and challenges} {Deep learning in environmental remote sensing:
+  Achievements and challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing of Environment}{241}{}{111716}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhao%
+, Shi%
+, Qi%
+, Wang%
+\BCBL {}\ \BBA {} Jia%
+}{%
+Zhao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+feature-pyramid}
+\APACinsertmetastar {%
+feature-pyramid}%
+\begin{APACrefauthors}%
+Zhao, H.%
+, Shi, J.%
+, Qi, X.%
+, Wang, X.%
+\BCBL {}\ \BBA {} Jia, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pyramid Scene Parsing Network} {Pyramid scene parsing
+  network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1612.01105}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1612.01105} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

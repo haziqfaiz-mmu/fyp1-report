@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: apacite.bst
+A level-1 auxiliary file: chapter-1-intro.aux
+A level-1 auxiliary file: chapter-2-lit-review.aux
+A level-1 auxiliary file: chapter-3-theory.aux
+A level-1 auxiliary file: chapter-4-methodology.aux
+A level-1 auxiliary file: chapter-5-conclusion.aux
+A level-1 auxiliary file: sample-appen-manual.aux
+A level-1 auxiliary file: sample-appen-try.aux
+Illegal, another \bibdata command---line 107 of file thesis.aux
+ : \bibdata
+ :         {mybib}
+I'm skipping whatever remains of this command
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+I was expecting a `,' or a `}'---line 37 of file references.bib
+ : 
+ : @article{edseee.988427220220717,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 48 of file references.bib
+ : 
+ : @INPROCEEDINGS{9554290,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 74 of file references.bib
+ : @article{DBLP:journals/corr/Thoma16a
+ :                                     ,
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 26 entries,
+            6951 wiz_defined-function locations,
+            1445 strings with 17860 characters,
+and the built_in function-call counts, 58453 in all, are:
+= -- 6925
+> -- 624
+< -- 2706
++ -- 2951
+- -- 52
+* -- 3870
+:= -- 10168
+add.period$ -- 107
+call.type$ -- 26
+change.case$ -- 425
+chr.to.int$ -- 0
+cite$ -- 52
+duplicate$ -- 1988
+empty$ -- 2357
+format.name$ -- 1177
+if$ -- 10947
+int.to.chr$ -- 0
+int.to.str$ -- 78
+missing$ -- 0
+newline$ -- 767
+num.names$ -- 212
+pop$ -- 993
+preamble$ -- 1
+purify$ -- 106
+quote$ -- 0
+skip$ -- 3635
+stack$ -- 0
+substring$ -- 3265
+swap$ -- 1096
+text.length$ -- 86
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 2400
+warning$ -- 0
+while$ -- 423
+width$ -- 0
+write$ -- 1015
+(There were 4 error messages)

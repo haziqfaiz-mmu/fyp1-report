@@ -24,7 +24,6 @@
 }
 
 @article{edseee.864274320181101,
-Abstract = {This paper proposes a semantic segmentation technique to automatically detect water-bodies from DubaiSat-2 images. The proposed method uses a deep convolutional neural network transfer-learning model. Several evaluation metrics such as accuracy, precision, and Jaccard coefficient are used to test our proposed algorithm. The overall accuracy for the prediction of water-bodies in DubaiSat-2 image dataset is 99.86%.},
 Author = {Talal, Mina and Panthakkan, Alavikunhu and Mukhtar, Husameldin and Mansoor, Wathiq and Almansoori, Saeed and Ahmad, Hussain Al},
 ISSN = {978-1-7281-0257-3},
 Journal = {2018 International Conference on Signal Processing and Information Security (ICSPIS), Signal Processing and Information Security (ICSPIS), 2018 International Conference on},
@@ -36,7 +35,6 @@ Year = {2018},
 }
 
 @article{edseee.988427220220717,
-Abstract = {Constellations of small satellites are able to achieve the coverage, revisit rate, and spatial resolution needed to generate high resolution global maps of flood waters. The PlanetScope constellation achieves daily coverage at 3–4 m resolution; however, the limited spectral channels available as well as radiometric challenges inherent to large constellations of small satellites create a challenge to accurate global flood mapping. Here, we present a convolutional neural network (CNN) which combines PlanetScope imagery with information about multidecadal water dynamics from the Global Surface Water dataset to create a globally applicable water segmentation model. We also compare this model to locally-trained Random Forest models, which are commonly used for flood mapping. The CNN achieves a mean intersection over union score of 58.1% ± 9.84% across 7 biomes when evaluated on flooded areas outside of permanent water bodies, and 70.3% ± 11.6% when evaluated on all water pixels.},
 Author = {Leach, Nicholas R. and Popien, Philip and Goodman, Maxwell C. and Tellman, Beth},
 ISSN = {978-1-6654-2792-0},
 Journal = {IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium, Geoscience and Remote Sensing Symposium, IGARSS 2022 - 2022 IEEE International},
@@ -245,6 +243,201 @@ author = {Rui Li and Shunyi Zheng and Ce Zhang and Chenxi Duan and Libo Wang and
 keywords = {Semantic Segmentation, Attention Mechanism, Bilateral Architecture, Convolutional Neural Network, Deep Learning}
 }
 
+%%%%%%%%%%%%%%%%%%%%%Lit Review%%%%%%%%%%%%%%%%%%%%
+
+@article{weakly-supervised-semantic,
+  author    = {Michael Schmitt and
+               Jonathan Prexl and
+               Patrick Ebel and
+               Lukas Liebel and
+               Xiao Xiang Zhu},
+  title     = {Weakly Supervised Semantic Segmentation of Satellite Images for Land
+               Cover Mapping - Challenges and Opportunities},
+  journal   = {CoRR},
+  volume    = {abs/2002.08254},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2002.08254},
+  eprinttype = {arXiv},
+  eprint    = {2002.08254},
+  timestamp = {Tue, 08 Mar 2022 10:14:57 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2002-08254.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{benchmarking-scaling,
+  author    = {Ioannis Papoutsis and
+               Nikolaos{-}Ioannis Bountos and
+               Angelos Zavras and
+               Dimitrios Michail and
+               Christos Tryfonopoulos},
+  title     = {Efficient deep learning models for land cover image classification},
+  journal   = {CoRR},
+  volume    = {abs/2111.09451},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2111.09451},
+  eprinttype = {arXiv},
+  eprint    = {2111.09451},
+  timestamp = {Mon, 22 Nov 2021 16:44:06 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2111-09451.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{unetformer,
+  author    = {Libo Wang and
+               Shenghui Fang and
+               Ce Zhang and
+               Rui Li and
+               Chenxi Duan},
+  title     = {Efficient Hybrid Transformer: Learning Global-local Context for Urban
+               Sence Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/2109.08937},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2109.08937},
+  eprinttype = {arXiv},
+  eprint    = {2109.08937},
+  timestamp = {Mon, 11 Oct 2021 13:51:33 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2109-08937.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{transformer-meet-conv,
+  author    = {Libo Wang and
+               Rui Li and
+               Dongzhi Wang and
+               Chenxi Duan and
+               Teng Wang and
+               Xiaoliang Meng},
+  title     = {Transformer Meets Convolution: {A} Bilateral Awareness Net-work for
+               Semantic Segmentation of Very Fine Resolution Ur-ban Scene Images},
+  journal   = {CoRR},
+  volume    = {abs/2106.12413},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2106.12413},
+  eprinttype = {arXiv},
+  eprint    = {2106.12413},
+  timestamp = {Mon, 11 Oct 2021 13:51:33 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2106-12413.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@ARTICLE{a-novel-transformer,
+
+  author={Wang, Libo and Li, Rui and Duan, Chenxi and Zhang, Ce and Meng, Xiaoliang and Fang, Shenghui},
+
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+
+  title={A Novel Transformer Based Semantic Segmentation Scheme for Fine-Resolution Remote Sensing Images}, 
+
+  year={2022},
+
+  volume={19},
+
+  number={},
+
+  pages={1-5},
+
+  doi={10.1109/LGRS.2022.3143368}}
+
+@misc{advancing-plain-vision-transformer,
+  doi = {10.48550/ARXIV.2208.03987},
+  
+  url = {https://arxiv.org/abs/2208.03987},
+  
+  author = {Wang, Di and Zhang, Qiming and Xu, Yufei and Zhang, Jing and Du, Bo and Tao, Dacheng and Zhang, Liangpei},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@ARTICLE{multi-attention-network,
+
+  author={Li, Rui and Zheng, Shunyi and Zhang, Ce and Duan, Chenxi and Su, Jianlin and Wang, Libo and Atkinson, Peter M.},
+
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+
+  title={Multiattention Network for Semantic Segmentation of Fine-Resolution Remote Sensing Images}, 
+
+  year={2022},
+
+  volume={60},
+
+  number={},
+
+  pages={1-13},
+
+  doi={10.1109/TGRS.2021.3093977}}
+
+
+
+@article{linear-attention-mechanism,
+  author    = {Rui Li and
+               Jianlin Su and
+               Chenxi Duan and
+               Shunyi Zheng},
+  title     = {Linear Attention Mechanism: An Efficient Attention for Semantic Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/2007.14902},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2007.14902},
+  eprinttype = {arXiv},
+  eprint    = {2007.14902},
+  timestamp = {Mon, 11 Oct 2021 13:51:33 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2007-14902.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{A2-FPN,
+  author    = {Rui Li and
+               Shunyi Zheng and
+               Chenxi Duan},
+  title     = {Feature Pyramid Network with Multi-Head Attention for Semantic Segmentation
+               of Fine-Resolution Remotely Sensed Images},
+  journal   = {CoRR},
+  volume    = {abs/2102.07997},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2102.07997},
+  eprinttype = {arXiv},
+  eprint    = {2102.07997},
+  timestamp = {Mon, 11 Oct 2021 13:51:33 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2102-07997.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{attention-unet,
+  author    = {Ozan Oktay and
+               Jo Schlemper and
+               Lo{\"{\i}}c Le Folgoc and
+               Matthew C. H. Lee and
+               Mattias P. Heinrich and
+               Kazunari Misawa and
+               Kensaku Mori and
+               Steven G. McDonagh and
+               Nils Y. Hammerla and
+               Bernhard Kainz and
+               Ben Glocker and
+               Daniel Rueckert},
+  title     = {Attention U-Net: Learning Where to Look for the Pancreas},
+  journal   = {CoRR},
+  volume    = {abs/1804.03999},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1804.03999},
+  eprinttype = {arXiv},
+  eprint    = {1804.03999},
+  timestamp = {Tue, 17 Sep 2019 14:15:15 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1804-03999.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%TRANSFORMERS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 @article{detr,
   author    = {Nicolas Carion and
@@ -407,24 +600,6 @@ keywords = {Semantic Segmentation, Attention Mechanism, Bilateral Architecture, 
   timestamp = {Fri, 20 Nov 2020 14:04:05 +0100},
   biburl    = {https://dblp.org/rec/journals/corr/abs-2010-11929.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-@misc{unetformer,
-  doi = {10.48550/ARXIV.2204.00631},
-  
-  url = {https://arxiv.org/abs/2204.00631},
-  
-  author = {Hatamizadeh, Ali and Xu, Ziyue and Yang, Dong and Li, Wenqi and Roth, Holger and Xu, Daguang},
-  
-  keywords = {Image and Video Processing (eess.IV), Artificial Intelligence (cs.AI), Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {UNetFormer: A Unified Vision Transformer Model and Pre-Training Framework for 3D Medical Image Segmentation},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
 }
 
 

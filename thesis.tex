@@ -1,0 +1,60 @@
+\documentclass{thesis}
+
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{placeins}
+\usepackage{amssymb}
+
+\author{Muhammad Haziq Faiz Bin Mohd Ripin}
+\title{Semantic Segmentation of Satellite Images Using Transformers \protect}
+\submissionyear{2022}
+\submissionmonth{January}
+\degree{BACHELOR OF COMPUTER SCIENCE}
+\major{B.C.S (HONS) DATA SCIENCE}
+\session{Session 2021/2022}
+\loadglsentries{myacronyms}
+
+\begin{document}
+\frontmatter
+\makecoverandtitlepage
+\copyrightpage
+\declarationpage
+
+\acknowledgements{Thanks guys. I owe you many.}
+\dedication{To my parents, my husband, and my daughter.}
+
+\abstractfromfile{abstract}
+
+{\clearpage\SingleSpacing
+\tableofcontents\clearpage
+\listoftables\clearpage
+\listoffigures\clearpage}
+
+\prefacefromfile{preface}
+
+\mainmatter
+
+\include{chapter-1-intro}
+\include{chapter-2-lit-review}
+\include{chapter-3-theory}
+\include{chapter-4-methodology}
+\include{chapter-5-conclusion}
+
+\appendix
+\include{sample-appen-manual}
+\include{sample-appen-try}
+
+\backmatter
+\bibliography{references}
+\bibliography{mybib}
+\printglossaries
+\theendnotes
+{\SingleSpacing\printindex}
+\bibliographyown{references}
+\end{document}

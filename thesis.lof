@@ -1,0 +1,22 @@
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Semantic Segmentation of a Satellite Image}}{2}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Object Detection of a Satellite Image}}{3}{figure.1.2}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Computing a histogram of oriented gradients for the first patch of an input image.}}{11}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Each circle represents the location and orientation of SIFT keypoints}}{12}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces U-Net Architecture}}{18}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Attention U-Net Architecture}}{20}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The size records of vision transformer in recent years}}{22}{figure.2.5}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ViT Architecture}}{29}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Swin Transformer V1 Architecture}}{30}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Cyclic Shifted Windows in Swin Transformer}}{30}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Difference Between Swin V1 and Swin V2}}{31}{figure.3.4}%
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
