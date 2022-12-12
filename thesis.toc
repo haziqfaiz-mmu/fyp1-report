@@ -7,10 +7,10 @@
 \contentsline {chapter}{DEDICATION}{v}{section*.4}
 \contentsline {chapter}{ABSTRACT}{vi}{section*.5}%
 \contentsline {chapter}{TABLE OF CONTENTS}{vii}{section*.6}%
-\contentsline {chapter}{LIST OF TABLES}{ix}{section*.7}%
-\contentsline {chapter}{LIST OF FIGURES}{x}{section*.8}%
+\contentsline {chapter}{LIST OF TABLES}{x}{section*.7}%
+\contentsline {chapter}{LIST OF FIGURES}{xi}{section*.8}%
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Preface}}{xi}{chapter*.9}%
+\contentsline {chapter}{\MakeUppercase {Preface}}{xii}{chapter*.9}%
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {1}\MakeUppercase {Introduction, Background Story, Motivations}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background Introduction}{1}{section.1.1}%
@@ -64,7 +64,6 @@
 \vspace *{-4pt}
 \contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{36}{appendix.B}%
 \contentsline {chapter}{REFERENCES}{37}{appendix*.10}%
-\contentsline {chapter}{REFERENCES}{41}{appendix*.11}%
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Notes}}{46}{appendix*.12}%
-\contentsline {chapter}{PUBLICATION LIST}{47}{appendix*.13}%
+\contentsline {chapter}{\MakeUppercase {Notes}}{42}{appendix*.11}%
+\contentsline {chapter}{PUBLICATION LIST}{43}{appendix*.12}%

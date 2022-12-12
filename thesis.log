@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.28)  12 DEC 2022 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.28)  12 DEC 2022 14:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,11 +1080,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
  [7
 
-]) [8] (./thesis.lot) [9
+]) [8] [9] (./thesis.lot) [10
 
-] (./thesis.lof) [10
+] (./thesis.lof) [11
 
-] (./preface.tex) [11
+] (./preface.tex) [12
 
 
 ]
@@ -1095,12 +1095,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 ]
-<images/semantic segmentation example.jpg, id=395, 1103.03pt x 394.2pt>
+<images/semantic segmentation example.jpg, id=404, 1103.03pt x 394.2pt>
 File: images/semantic segmentation example.jpg Graphic file (type jpg)
 <use images/semantic segmentation example.jpg>
 Package pdftex.def Info: images/semantic segmentation example.jpg  used on input line 14.
 (pdftex.def)             Requested size: 341.43085pt x 170.71773pt.
-<images/airport object detection.jpeg, id=396, 1405.25pt x 1356.06625pt>
+<images/airport object detection.jpeg, id=405, 1405.25pt x 1356.06625pt>
 File: images/airport object detection.jpeg Graphic file (type jpg)
 <use images/airport object detection.jpeg>
 Package pdftex.def Info: images/airport object detection.jpeg  used on input line 21.
@@ -1145,7 +1145,7 @@ Overfull \hbox (58.3089pt too wide) in paragraph at lines 11--27
                                                   
 l.41 
      ]
-<images/hog.png, id=464, 599.23875pt x 256.96pt>
+<images/hog.png, id=473, 599.23875pt x 256.96pt>
 File: images/hog.png Graphic file (type png)
 <use images/hog.png>
 Package pdftex.def Info: images/hog.png  used on input line 43.
@@ -1155,7 +1155,7 @@ Package pdftex.def Info: images/hog.png  used on input line 43.
                                                   
 l.50 
       <./images/hog.png>]
-<images/sift_keypoints.jpg, id=481, 451.6875pt x 339.2675pt>
+<images/sift_keypoints.jpg, id=491, 451.6875pt x 339.2675pt>
 File: images/sift_keypoints.jpg Graphic file (type jpg)
 <use images/sift_keypoints.jpg>
 Package pdftex.def Info: images/sift_keypoints.jpg  used on input line 52.
@@ -1177,7 +1177,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [15] [16] [17]
-<images/unet.png, id=551, 1560.83125pt x 1039.885pt>
+<images/unet.png, id=561, 1560.83125pt x 1039.885pt>
 File: images/unet.png Graphic file (type png)
 <use images/unet.png>
 Package pdftex.def Info: images/unet.png  used on input line 130.
@@ -1187,7 +1187,7 @@ Package pdftex.def Info: images/unet.png  used on input line 130.
                                                   
 l.137 
        <./images/unet.png>]
-<images/attention-unet.png, id=569, 853.1875pt x 388.45125pt>
+<images/attention-unet.png, id=578, 853.1875pt x 388.45125pt>
 File: images/attention-unet.png Graphic file (type png)
 <use images/attention-unet.png>
 Package pdftex.def Info: images/attention-unet.png  used on input line 141.
@@ -1197,7 +1197,7 @@ Package pdftex.def Info: images/attention-unet.png  used on input line 141.
                                                   
 l.160 
        <./images/attention-unet.png>] [21]
-<images/scaling.png, id=613, 469.755pt x 305.4612pt>
+<images/scaling.png, id=622, 469.755pt x 305.4612pt>
 File: images/scaling.png Graphic file (type png)
 <use images/scaling.png>
 Package pdftex.def Info: images/scaling.png  used on input line 170.
@@ -1215,17 +1215,17 @@ l.44 \include{chapter-2-lit-review}
 
 
 ] [24] [25] [26] [27] [28]
-<images/vision transformer.png, id=651, 770.88pt x 582.175pt>
+<images/vision transformer.png, id=660, 770.88pt x 582.175pt>
 File: images/vision transformer.png Graphic file (type png)
 <use images/vision transformer.png>
 Package pdftex.def Info: images/vision transformer.png  used on input line 131.
 (pdftex.def)             Requested size: 384.10988pt x 256.07784pt.
-<images/swin-architecture.jpg, id=655, 339.2675pt x 370.38374pt>
+<images/swin-architecture.jpg, id=664, 339.2675pt x 370.38374pt>
 File: images/swin-architecture.jpg Graphic file (type jpg)
 <use images/swin-architecture.jpg>
 Package pdftex.def Info: images/swin-architecture.jpg  used on input line 143.
 (pdftex.def)             Requested size: 270.3117pt x 199.17345pt.
-<images/swin-cyclic-shift.jpg, id=656, 722.7pt x 209.78375pt>
+<images/swin-cyclic-shift.jpg, id=665, 722.7pt x 209.78375pt>
 File: images/swin-cyclic-shift.jpg Graphic file (type jpg)
 <use images/swin-cyclic-shift.jpg>
 Package pdftex.def Info: images/swin-cyclic-shift.jpg  used on input line 150.
@@ -1235,7 +1235,7 @@ Package pdftex.def Info: images/swin-cyclic-shift.jpg  used on input line 150.
                                                   
 l.156 \FloatBarrier
                     <./images/vision transformer.png>]
-<images/swin1-vs-swin2.jpg, id=662, 722.7pt x 433.62pt>
+<images/swin1-vs-swin2.jpg, id=672, 722.7pt x 433.62pt>
 File: images/swin1-vs-swin2.jpg Graphic file (type jpg)
 <use images/swin1-vs-swin2.jpg>
 Package pdftex.def Info: images/swin1-vs-swin2.jpg  used on input line 158.
@@ -1352,165 +1352,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 598--620
 \T1/lmvtt/m/n/10 search [] .ebscohost [] .com / login [] .aspx [] ?direct = true&AuthType = shib&db = edseee&AN =
  []
 
-[39]) (./thesis.bbl [40]pdfTeX warning (ext4): destination with the same identifier (name{cite.markovbook}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 markovbook}
-                pdfTeX warning (ext4): destination with the same identifier (name{cite.detr}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.37 detr}
-          pdfTeX warning (ext4): destination with the same identifier (name{cite.regionnet++}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.69 regionnet++}
-                 pdfTeX warning (ext4): destination with the same identifier (name{cite.16x16}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.104 16x16}
-            pdfTeX warning (ext4): destination with the same identifier (name{cite.learnregionfeat}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.140 learnregionfeat}
-                      pdfTeX warning (ext4): destination with the same identifier (name{cite.alexnet}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.171 alexnet}
-              
-Underfull \hbox (badness 3482) in paragraph at lines 175--197
-[]\T1/ptm/m/n/10 Krizhevsky, A., Sutskever, I., & Hin-ton, G. E.  (2012).  Im-a-genet clas-si-fi-ca-tion with
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 175--197
-\T1/ptm/m/n/10 deep con-vo-lu-tional neu-ral net-works.  In F. Pereira, C. Burges, L. Bot-tou, & K. Wein-
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 175--197
-\T1/ptm/m/n/10 berger (Eds.[]), \T1/ptm/m/it/10 Ad-vances in neu-ral in-for-ma-tion pro-cess-ing sys-tems \T1/ptm/m/n/10 (Vol.[] 25).  Cur-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{cite.edseee.988427220220717}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.208 edseee.988427220220717}
-                             
-Underfull \hbox (badness 10000) in paragraph at lines 212--234
-\T1/ptm/m/n/10 from []$\T1/lmvtt/m/n/10 https :// go [] .openathens [] .net / redirector / mmu [] .edu [] .my [] ?url = {UrlEncode(https ://
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--234
-\T1/lmvtt/m/n/10 search [] .ebscohost [] .com / login [] .aspx [] ?direct = true&AuthType = shib&db = edseee&AN =
- []
-
-[41
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.abcnet}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.242 abcnet}
-             pdfTeX warning (ext4): destination with the same identifier (name{cite.enlarge-receptive-field}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.283 enlarge-receptive-field}
-                              pdfTeX warning (ext4): destination with the same identifier (name{cite.swin-v2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.317 swin-v2}
-              pdfTeX warning (ext4): destination with the same identifier (name{cite.swin-v1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.351 swin-v1}
-              pdfTeX warning (ext4): destination with the same identifier (name{cite.7298965}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.385 7298965}
-               [42]pdfTeX warning (ext4): destination with the same identifier (name{cite.SIFT}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.414 SIFT}
-           pdfTeX warning (ext4): destination with the same identifier (name{cite.attention-unet}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.443 attention-unet}
-                     pdfTeX warning (ext4): destination with the same identifier (name{cite.9554290}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.476 9554290}
-              pdfTeX warning (ext4): destination with the same identifier (name{cite.scaling-sparse}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.506 scaling-sparse}
-                     pdfTeX warning (ext4): destination with the same identifier (name{cite.unet}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.539 unet}
-           pdfTeX warning (ext4): destination with the same identifier (name{cite.Schroff2008ObjectCS}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.569 Schroff2008ObjectCS}
-                          pdfTeX warning (ext4): destination with the same identifier (name{cite.edseee.864274320181101}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.594 edseee.864274320181101}
-                             
-Underfull \hbox (badness 1460) in paragraph at lines 598--620
-\T1/ptm/m/n/10 De-tec-tion of water-bodies us-ing se-man-tic seg-men-ta-tion.  \T1/ptm/m/it/10 2018 In-ter-na-tional Con-fer-ence
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 598--620
-\T1/ptm/m/it/10 on Sig-nal Pro-cess-ing and In-for-ma-tion Se-cu-rity (IC-SPIS), Sig-nal Pro-cess-ing and In-for-
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 598--620
-\T1/ptm/m/it/10 ma-tion Se-cu-rity (IC-SPIS), 2018 In-ter-na-tional Con-fer-ence on\T1/ptm/m/n/10 , 1 - 4.  Re-trieved from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--620
-[]$\T1/lmvtt/m/n/10 https :// go [] .openathens [] .net / redirector / mmu [] .edu [] .my [] ?url = {UrlEncode(https ://
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--620
-\T1/lmvtt/m/n/10 search [] .ebscohost [] .com / login [] .aspx [] ?direct = true&AuthType = shib&db = edseee&AN =
- []
-
-[43]pdfTeX warning (ext4): destination with the same identifier (name{cite.crf-semantic}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.630 crf-semantic}
-                   pdfTeX warning (ext4): destination with the same identifier (name{cite.DBLP:journals/corr/Thoma16a}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.656 DBLP:journals/corr/Thoma16a}
-                                  pdfTeX warning (ext4): destination with the same identifier (name{cite.attention-is-all-you-need}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.681 attention-is-all-you-need}
-                                pdfTeX warning (ext4): destination with the same identifier (name{cite.unetformer}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.716 unetformer}
-                 pdfTeX warning (ext4): destination with the same identifier (name{cite.YU201882}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.746 YU201882}
-               pdfTeX warning (ext4): destination with the same identifier (name{cite.Yuan2020DeepLI}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.782 Yuan2020DeepLI}
-                     pdfTeX warning (ext4): destination with the same identifier (name{cite.feature-pyramid}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.816 feature-pyramid}
-                      )
+[39])
 No file thesis.gls.
-[44] [45] (./thesis.ent) (./thesis.ind) (./own.bbl [46
+[40] [41] (./thesis.ent) (./thesis.ind) (./own.bbl [42
 
 ]
 
@@ -1519,9 +1363,9 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 )
 \openout4 = `thesis.ent'.
 
- [47
+ [43
 
-] [48
+] [44
 
 ]
 \tf@toc=\write10
@@ -1535,30 +1379,29 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
  (./thesis.aux (./chapter-1-intro.aux) (./chapter-2-lit-review.aux) (./chapter-3-theory.aux) (./chapter-4-methodology.aux) (./chapter-5-conclusion.aux) (./sample-appen-manual.aux) (./sample-appen-try.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 02FCCED65F63C72C5B2E0DE3532574CE;11471
-(rerunfilecheck)             After:  D2EC02EF90AC903F9D052984D885853C;11575.
+(rerunfilecheck)             Before: D2EC02EF90AC903F9D052984D885853C;11575
+(rerunfilecheck)             After:  02FCCED65F63C72C5B2E0DE3532574CE;11471.
  ) 
 Here is how much of TeX's memory you used:
- 19874 strings out of 480806
- 294725 string characters out of 5905151
+ 19870 strings out of 480806
+ 294697 string characters out of 5905151
  838025 words of memory out of 6000000
- 36580 multiletter control sequences out of 15000+600000
+ 36581 multiletter control sequences out of 15000+600000
  485904 words of font info for 153 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 106i,13n,105p,1264b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 106i,13n,105p,1264b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{appendix*.13} has been referenced but does not exist, replaced by a fixed one
+
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (61 pages, 1401169 bytes).
+Output written on thesis.pdf (58 pages, 1392653 bytes).
 PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 808 compressed objects within 9 object streams
- 182 named destinations out of 1000 (max. 500000)
- 528 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 764 compressed objects within 8 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 536 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1640,10 +1640,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT ./thesis.bbl
-INPUT thesis.bbl
-INPUT ./thesis.bbl
-INPUT thesis.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT ./thesis.ent
 INPUT thesis.ent
