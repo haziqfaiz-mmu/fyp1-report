@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.28)  12 DEC 2022 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.28)  14 DEC 2022 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,28 +944,28 @@ Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
 ) (./thesis.aux (./chapter-1-intro.aux) (./chapter-2-lit-review.aux) (./chapter-3-theory.aux) (./chapter-4-methodology.aux) (./chapter-5-conclusion.aux) (./sample-appen-manual.aux) (./sample-appen-try.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -977,10 +977,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 23.
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write9
 \openout9 = `thesis.out'.
@@ -1009,7 +1009,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 23.
+LaTeX Info: Redefining \selectfont on input line 24.
  [1
 
 \openout7 = `thesis.ist'.
@@ -1018,45 +1018,45 @@ LaTeX Info: Redefining \selectfont on input line 23.
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \makecoverandtitlepage
+l.26 \makecoverandtitlepage
                             [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \makecoverandtitlepage
+l.26 \makecoverandtitlepage
                             [1
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 26.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 26.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 26.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 26.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 26.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.36008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.40009> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2
@@ -1080,11 +1080,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
  [7
 
-]) [8] [9] (./thesis.lot) [10
+]) [8] (./thesis.lot) [9
 
-] (./thesis.lof) [11
+] (./thesis.lof) [10
 
-] (./preface.tex) [12
+] (./preface.tex) [11
 
 
 ]
@@ -1095,12 +1095,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 ]
-<images/semantic segmentation example.jpg, id=404, 1103.03pt x 394.2pt>
+<images/semantic segmentation example.jpg, id=417, 1103.03pt x 394.2pt>
 File: images/semantic segmentation example.jpg Graphic file (type jpg)
 <use images/semantic segmentation example.jpg>
 Package pdftex.def Info: images/semantic segmentation example.jpg  used on input line 14.
 (pdftex.def)             Requested size: 341.43085pt x 170.71773pt.
-<images/airport object detection.jpeg, id=405, 1405.25pt x 1356.06625pt>
+<images/airport object detection.jpeg, id=418, 1405.25pt x 1356.06625pt>
 File: images/airport object detection.jpeg Graphic file (type jpg)
 <use images/airport object detection.jpeg>
 Package pdftex.def Info: images/airport object detection.jpeg  used on input line 21.
@@ -1143,104 +1143,202 @@ Overfull \hbox (58.3089pt too wide) in paragraph at lines 11--27
 ] [10pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.41 
+l.37 
      ]
-<images/hog.png, id=473, 599.23875pt x 256.96pt>
+<images/potsdam-image.png, id=497, 6022.5pt x 6022.5pt>
+File: images/potsdam-image.png Graphic file (type png)
+<use images/potsdam-image.png>
+Package pdftex.def Info: images/potsdam-image.png  used on input line 49.
+(pdftex.def)             Requested size: 327.14917pt x 199.13826pt.
+<images/potsdam-mask.png, id=498, 1445.4pt x 1445.4pt>
+File: images/potsdam-mask.png Graphic file (type png)
+<use images/potsdam-mask.png>
+Package pdftex.def Info: images/potsdam-mask.png  used on input line 56.
+(pdftex.def)             Requested size: 327.20798pt x 199.15665pt.
+<images/vaihingen-image.png, id=499, 2003.485pt x 2002.48125pt>
+File: images/vaihingen-image.png Graphic file (type png)
+<use images/vaihingen-image.png>
+Package pdftex.def Info: images/vaihingen-image.png  used on input line 63.
+(pdftex.def)             Requested size: 327.19798pt x 199.15987pt.
+<images/vaihingen-mask.png, id=500, 2003.485pt x 2002.48125pt>
+File: images/vaihingen-mask.png Graphic file (type png)
+<use images/vaihingen-mask.png>
+Package pdftex.def Info: images/vaihingen-mask.png  used on input line 70.
+(pdftex.def)             Requested size: 327.19798pt x 199.15987pt.
+ [11] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.76 \FloatBarrier
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.76 \FloatBarrier
+                   <./images/potsdam-image.png> <./images/potsdam-mask.png>] [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.76 \FloatBarrier
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.76 \FloatBarrier
+                   <./images/vaihingen-image.png> <./images/vaihingen-mask.png>]
+<images/loveda-image.png, id=528, 1027.84pt x 1027.84pt>
+File: images/loveda-image.png Graphic file (type png)
+<use images/loveda-image.png>
+Package pdftex.def Info: images/loveda-image.png  used on input line 84.
+(pdftex.def)             Requested size: 327.20601pt x 199.16547pt.
+ [14
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.95 
+      <./images/loveda-image.png (PNG copy)>]
+<images/gid image.png, id=539, 7227.0pt x 6825.5pt>
+File: images/gid image.png Graphic file (type png)
+<use images/gid image.png>
+Package pdftex.def Info: images/gid image.png  used on input line 98.
+(pdftex.def)             Requested size: 327.18593pt x 199.13214pt.
+<images/gid mask.png, id=540, 7227.0pt x 6825.5pt>
+File: images/gid mask.png Graphic file (type png)
+<use images/gid mask.png>
+Package pdftex.def Info: images/gid mask.png  used on input line 105.
+(pdftex.def)             Requested size: 327.18593pt x 199.13214pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.110 \FloatBarrier
+                    <./images/gid image.png>] [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.122     \item B
+                 arren land: Mountain, rock, dessert, beach, land with no ve... <./images/gid mask.png>]
+<images/deepglobe_img.jpg, id=561, 2457.18pt x 2457.18pt>
+File: images/deepglobe_img.jpg Graphic file (type jpg)
+<use images/deepglobe_img.jpg>
+Package pdftex.def Info: images/deepglobe_img.jpg  used on input line 131.
+(pdftex.def)             Requested size: 327.20576pt x 199.16547pt.
+<images/deepglobe_mask.png, id=562, 2457.18pt x 2457.18pt>
+File: images/deepglobe_mask.png Graphic file (type png)
+<use images/deepglobe_mask.png>
+Package pdftex.def Info: images/deepglobe_mask.png  used on input line 138.
+(pdftex.def)             Requested size: 327.20576pt x 199.16547pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.143 \FloatBarrier
+                    <./images/deepglobe_img.jpg>] [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.157 
+       <./images/deepglobe_mask.png (PNG copy)>]
+<images/hog.png, id=577, 599.23875pt x 256.96pt>
 File: images/hog.png Graphic file (type png)
 <use images/hog.png>
-Package pdftex.def Info: images/hog.png  used on input line 43.
+Package pdftex.def Info: images/hog.png  used on input line 162.
 (pdftex.def)             Requested size: 341.44162pt x 170.7194pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.50 
-      <./images/hog.png>]
-<images/sift_keypoints.jpg, id=491, 451.6875pt x 339.2675pt>
+ [19]
+<images/sift_keypoints.jpg, id=593, 451.6875pt x 339.2675pt>
 File: images/sift_keypoints.jpg Graphic file (type jpg)
 <use images/sift_keypoints.jpg>
-Package pdftex.def Info: images/sift_keypoints.jpg  used on input line 52.
+Package pdftex.def Info: images/sift_keypoints.jpg  used on input line 171.
 (pdftex.def)             Requested size: 341.45273pt x 213.3928pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.64 
-      <./images/sift_keypoints.jpg>] [13] [14]
-./chapter-2-lit-review.tex:99: Missing } inserted.
+l.183 
+       <./images/hog.png>] [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.189 
+       <./images/sift_keypoints.jpg>] [22]
+./chapter-2-lit-review.tex:218: Missing } inserted.
 <inserted text> 
                 }
-l.99 \end{equation*}
-                    
+l.218 \end{equation*}
+                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[15] [16] [17]
-<images/unet.png, id=561, 1560.83125pt x 1039.885pt>
+[23] [24] [25]
+<images/unet.png, id=661, 1560.83125pt x 1039.885pt>
 File: images/unet.png Graphic file (type png)
 <use images/unet.png>
-Package pdftex.def Info: images/unet.png  used on input line 130.
-(pdftex.def)             Requested size: 384.10988pt x 256.06725pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+Package pdftex.def Info: images/unet.png  used on input line 249.
+(pdftex.def)             Requested size: 298.75212pt x 199.16693pt.
+ [26] [27pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.137 
+l.258 
        <./images/unet.png>]
-<images/attention-unet.png, id=578, 853.1875pt x 388.45125pt>
+<images/attention-unet.png, id=691, 853.1875pt x 388.45125pt>
 File: images/attention-unet.png Graphic file (type png)
 <use images/attention-unet.png>
-Package pdftex.def Info: images/attention-unet.png  used on input line 141.
-(pdftex.def)             Requested size: 384.11308pt x 256.08224pt.
- [19] [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+Package pdftex.def Info: images/attention-unet.png  used on input line 260.
+(pdftex.def)             Requested size: 298.7633pt x 199.17441pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.160 
-       <./images/attention-unet.png>] [21]
-<images/scaling.png, id=622, 469.755pt x 305.4612pt>
+l.268 S
+       patial Attention U-Net (SA-Unet) \cite{improved-unet} uses atrous spa... <./images/attention-unet.png>]
+<images/maunet.png, id=705, 552.0625pt x 298.11375pt>
+File: images/maunet.png Graphic file (type png)
+<use images/maunet.png>
+Package pdftex.def Info: images/maunet.png  used on input line 271.
+(pdftex.def)             Requested size: 298.76636pt x 199.17111pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.2.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.280 
+       <./images/maunet.png>] [30]
+<images/scaling.png, id=740, 469.755pt x 305.4612pt>
 File: images/scaling.png Graphic file (type png)
 <use images/scaling.png>
-Package pdftex.def Info: images/scaling.png  used on input line 170.
+Package pdftex.def Info: images/scaling.png  used on input line 302.
 (pdftex.def)             Requested size: 284.5288pt x 184.94675pt.
-) [22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
+) [31] [32pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.44 \include{chapter-2-lit-review}
+l.45 \include{chapter-2-lit-review}
                                     <./images/scaling.png>]
 \openout2 = `chapter-3-theory.aux'.
 
- (./chapter-3-theory.tex [23
+ (./chapter-3-theory.tex [33
 
 
 
 
-] [24] [25] [26] [27] [28]
-<images/vision transformer.png, id=660, 770.88pt x 582.175pt>
-File: images/vision transformer.png Graphic file (type png)
-<use images/vision transformer.png>
-Package pdftex.def Info: images/vision transformer.png  used on input line 131.
-(pdftex.def)             Requested size: 384.10988pt x 256.07784pt.
-<images/swin-architecture.jpg, id=664, 339.2675pt x 370.38374pt>
-File: images/swin-architecture.jpg Graphic file (type jpg)
-<use images/swin-architecture.jpg>
-Package pdftex.def Info: images/swin-architecture.jpg  used on input line 143.
-(pdftex.def)             Requested size: 270.3117pt x 199.17345pt.
-<images/swin-cyclic-shift.jpg, id=665, 722.7pt x 209.78375pt>
-File: images/swin-cyclic-shift.jpg Graphic file (type jpg)
-<use images/swin-cyclic-shift.jpg>
-Package pdftex.def Info: images/swin-cyclic-shift.jpg  used on input line 150.
-(pdftex.def)             Requested size: 384.10986pt x 156.48914pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+] [34] [35] [36]
+<images/Rosenblattperceptron.png, id=771, 602.25pt x 286.06876pt>
+File: images/Rosenblattperceptron.png Graphic file (type png)
+<use images/Rosenblattperceptron.png>
+Package pdftex.def Info: images/Rosenblattperceptron.png  used on input line 111.
+(pdftex.def)             Requested size: 298.76253pt x 156.49147pt.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.156 \FloatBarrier
-                    <./images/vision transformer.png>]
-<images/swin1-vs-swin2.jpg, id=672, 722.7pt x 433.62pt>
-File: images/swin1-vs-swin2.jpg Graphic file (type jpg)
-<use images/swin1-vs-swin2.jpg>
-Package pdftex.def Info: images/swin1-vs-swin2.jpg  used on input line 158.
-(pdftex.def)             Requested size: 384.10986pt x 270.31049pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
+l.121 \subsubsection
+                    {Activation Functions} <./images/Rosenblattperceptron.png>] [38]
+<images/vision transformer.png, id=785, 770.88pt x 582.175pt>
+File: images/vision transformer.png Graphic file (type png)
+<use images/vision transformer.png>
+Package pdftex.def Info: images/vision transformer.png  used on input line 138.
+(pdftex.def)             Requested size: 384.10988pt x 256.07784pt.
+ [39]
+<images/swin-architecture.jpg, id=794, 339.2675pt x 370.38374pt>
+File: images/swin-architecture.jpg Graphic file (type jpg)
+<use images/swin-architecture.jpg>
+Package pdftex.def Info: images/swin-architecture.jpg  used on input line 150.
+(pdftex.def)             Requested size: 270.3117pt x 199.17345pt.
+<images/swin-cyclic-shift.jpg, id=795, 722.7pt x 209.78375pt>
+File: images/swin-cyclic-shift.jpg Graphic file (type jpg)
+<use images/swin-cyclic-shift.jpg>
+Package pdftex.def Info: images/swin-cyclic-shift.jpg  used on input line 157.
+(pdftex.def)             Requested size: 384.10986pt x 156.48914pt.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.163 \FloatBarrier
@@ -1248,16 +1346,24 @@ l.163 \FloatBarrier
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.163 \FloatBarrier
-                    <./images/swin-architecture.jpg> <./images/swin-cyclic-shift.jpg>] [31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+                    <./images/vision transformer.png> <./images/swin-architecture.jpg>]
+<images/swin1-vs-swin2.jpg, id=801, 722.7pt x 433.62pt>
+File: images/swin1-vs-swin2.jpg Graphic file (type jpg)
+<use images/swin1-vs-swin2.jpg>
+Package pdftex.def Info: images/swin1-vs-swin2.jpg  used on input line 165.
+(pdftex.def)             Requested size: 384.10986pt x 270.31049pt.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.163 \FloatBarrier
-                    <./images/swin1-vs-swin2.jpg>]) [32
-
-]
+l.187     \item I
+                 nadequate computing.pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.187     \item I
+                 nadequate computing. <./images/swin-cyclic-shift.jpg> <./images/swin1-vs-swin2.jpg>]) [42]
 \openout2 = `chapter-4-methodology.aux'.
 
- (./chapter-4-methodology.tex) [33
+ (./chapter-4-methodology.tex) [43
 
 
 
@@ -1265,7 +1371,7 @@ l.163 \FloatBarrier
 ]
 \openout2 = `chapter-5-conclusion.aux'.
 
- (./chapter-5-conclusion.tex) [34
+ (./chapter-5-conclusion.tex) [44
 
 
 
@@ -1273,7 +1379,7 @@ l.163 \FloatBarrier
 ]
 \openout2 = `sample-appen-manual.aux'.
 
- (./sample-appen-manual.tex) [35
+ (./sample-appen-manual.tex) [45
 
 
 
@@ -1281,7 +1387,7 @@ l.163 \FloatBarrier
 ]
 \openout2 = `sample-appen-try.aux'.
 
- (./sample-appen-try.tex) [36
+ (./sample-appen-try.tex) [46
 
 
 
@@ -1297,64 +1403,64 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+ [47
 
-Underfull \hbox (badness 3482) in paragraph at lines 175--197
+
+
+
+]
+Underfull \hbox (badness 3482) in paragraph at lines 242--264
 []\T1/ptm/m/n/10 Krizhevsky, A., Sutskever, I., & Hin-ton, G. E.  (2012).  Im-a-genet clas-si-fi-ca-tion with
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 175--197
+Underfull \hbox (badness 1033) in paragraph at lines 242--264
 \T1/ptm/m/n/10 deep con-vo-lu-tional neu-ral net-works.  In F. Pereira, C. Burges, L. Bot-tou, & K. Wein-
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 175--197
+Underfull \hbox (badness 4048) in paragraph at lines 242--264
 \T1/ptm/m/n/10 berger (Eds.[]), \T1/ptm/m/it/10 Ad-vances in neu-ral in-for-ma-tion pro-cess-ing sys-tems \T1/ptm/m/n/10 (Vol.[] 25).  Cur-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--234
+Underfull \hbox (badness 10000) in paragraph at lines 279--301
 \T1/ptm/m/n/10 from []$\T1/lmvtt/m/n/10 https :// go [] .openathens [] .net / redirector / mmu [] .edu [] .my [] ?url = {UrlEncode(https ://
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--234
+Underfull \hbox (badness 10000) in paragraph at lines 279--301
 \T1/lmvtt/m/n/10 search [] .ebscohost [] .com / login [] .aspx [] ?direct = true&AuthType = shib&db = edseee&AN =
  []
 
-[37
-
-
-
-
-] [38]
-Underfull \hbox (badness 1460) in paragraph at lines 598--620
+[48] [49]
+Underfull \hbox (badness 1460) in paragraph at lines 807--829
 \T1/ptm/m/n/10 De-tec-tion of water-bodies us-ing se-man-tic seg-men-ta-tion.  \T1/ptm/m/it/10 2018 In-ter-na-tional Con-fer-ence
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 598--620
+Underfull \hbox (badness 2213) in paragraph at lines 807--829
 \T1/ptm/m/it/10 on Sig-nal Pro-cess-ing and In-for-ma-tion Se-cu-rity (IC-SPIS), Sig-nal Pro-cess-ing and In-for-
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 598--620
+Underfull \hbox (badness 2134) in paragraph at lines 807--829
 \T1/ptm/m/it/10 ma-tion Se-cu-rity (IC-SPIS), 2018 In-ter-na-tional Con-fer-ence on\T1/ptm/m/n/10 , 1 - 4.  Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--620
+Underfull \hbox (badness 10000) in paragraph at lines 807--829
 []$\T1/lmvtt/m/n/10 https :// go [] .openathens [] .net / redirector / mmu [] .edu [] .my [] ?url = {UrlEncode(https ://
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--620
+Underfull \hbox (badness 10000) in paragraph at lines 807--829
 \T1/lmvtt/m/n/10 search [] .ebscohost [] .com / login [] .aspx [] ?direct = true&AuthType = shib&db = edseee&AN =
  []
 
-[39])
+[50] [51])
 No file thesis.gls.
-[40] [41] (./thesis.ent) (./thesis.ind) (./own.bbl [42
+[52] (./thesis.ent) (./thesis.ind) (./own.bbl [53
 
 ]
 
@@ -1363,9 +1469,9 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 )
 \openout4 = `thesis.ent'.
 
- [43
+ [54
 
-] [44
+] [55
 
 ]
 \tf@toc=\write10
@@ -1378,30 +1484,22 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \openout12 = `thesis.lof'.
 
  (./thesis.aux (./chapter-1-intro.aux) (./chapter-2-lit-review.aux) (./chapter-3-theory.aux) (./chapter-4-methodology.aux) (./chapter-5-conclusion.aux) (./sample-appen-manual.aux) (./sample-appen-try.aux))
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: D2EC02EF90AC903F9D052984D885853C;11575
-(rerunfilecheck)             After:  02FCCED65F63C72C5B2E0DE3532574CE;11471.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 02FCCED65F63C72C5B2E0DE3532574CE;11471.
  ) 
 Here is how much of TeX's memory you used:
- 19870 strings out of 480806
- 294697 string characters out of 5905151
- 838025 words of memory out of 6000000
- 36581 multiletter control sequences out of 15000+600000
+ 20030 strings out of 480806
+ 297921 string characters out of 5905151
+ 839025 words of memory out of 6000000
+ 36687 multiletter control sequences out of 15000+600000
  485904 words of font info for 153 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 106i,13n,105p,1264b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{appendix*.13} has been referenced but does not exist, replaced by a fixed one
-
+ 106i,13n,105p,1401b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (58 pages, 1392653 bytes).
+Output written on thesis.pdf (68 pages, 77885568 bytes).
 PDF statistics:
- 859 PDF objects out of 1000 (max. 8388607)
- 764 compressed objects within 8 object streams
- 179 named destinations out of 1000 (max. 500000)
- 536 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1006 PDF objects out of 1200 (max. 8388607)
+ 883 compressed objects within 9 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
 

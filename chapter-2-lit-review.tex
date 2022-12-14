@@ -17,18 +17,137 @@ This chapter would cover the literature review part of this project. The first s
 \begin{tabular}[c]{@{}c@{}}Deep Globe \\ Land Cover\end{tabular}      & \begin{tabular}[c]{@{}c@{}}DigitalGlobe\\  +Vivid\end{tabular} & 803                 & 7                   & 2,448x2,448        & 0.5              & RGB                                                \\ \hline
 DFC2022                                                               & Aerial                                                         & 3,981               & 15                  & 2,000x2,000        & 0.5              & RGB                                                \\ \hline
 \begin{tabular}[c]{@{}c@{}}ETCI 2021 \\ Flood Prediction\end{tabular} & Sentinel-1                                                     & 66,810              & 2                   & 256x256            & 5–20             & SAR                                                \\ \hline
-GID-15                                                                & Gaofen-2                                                       & 150                 & 15                  & 6,800x7,200        & 3                & RGB                                                \\ \hline
-LandCover.ai                                                          & Aerial                                                         & 10,674              & 5                   & 512x512            & 0.25–0.5         & RGB                                                \\ \hline
-LoveDA                                                                & Google Earth                                                   & 5,987               & 7                   & 1,024x1,024        & 0.3              & RGB                                                \\ \hline
-Potsdam                                                               & Aerial                                                         & 38                  & 6                   & 4,000x4,000        & 0.02             & RGB                                                \\ \hline
-Vaihingen                                                             & Aerial                                                         & 33                  & 6                   & 1,281–3,816        & 0.09             & RGB                                                \\ \hline
+\textbf{GID-15}                                                                & Gaofen-2                                                       & 150                 & 15                  & 6,800x7,200        & 3                & RGB                                                \\ \hline
+\textbf{LandCover.ai}                                                          & Aerial                                                         & 10,674              & 5                   & 512x512            & 0.25–0.5         & RGB                                                \\ \hline
+\textbf{LoveDA}                                                                & Google Earth                                                   & 5,987               & 7                   & 1,024x1,024        & 0.3              & RGB                                                \\ \hline
+\textbf{Potsdam}                                                               & Aerial                                                         & 38                  & 6                   & 4,000x4,000        & 0.02             & RGB                                                \\ \hline
+\textbf{Vaihingen}                                                             & Aerial                                                         & 33                  & 6                   & 1,281–3,816        & 0.09             & RGB                                                \\ \hline
 SEN12MS                                                               & \begin{tabular}[c]{@{}c@{}}Sentinel-1/2, \\ MODIS\end{tabular} & 180,662             & 33                  & 256x256            & 10               & \begin{tabular}[c]{@{}c@{}}SAR,\\ MSI\end{tabular} \\ \hline
 \end{tabular}
 \caption{Datasets for Semantic Segmentation Task}
 \label{tab:datasets}
 \end{table}
 
-Table \ref{tab:datasets} shows the list of dataset that were evaluated and pre-processed for this project. Each of the dataset is made for semantic segmentation task.
+\FloatBarrier
+
+Table \ref{tab:datasets} shows the list of dataset that were evaluated and considered for this project. Each of the dataset is made for semantic segmentation task and  is provided by the TorchGeo library. The dataset in bold are the ones that I think deserve more in depth exploration and discussion. 
+
+%%Potsdam%%%
+The Potsdam and Vaihingen datasets \cite{potsdam-vaihingen} are datasets made specifically for urban semantic segmentation used in the 2D Semantic Labeling Contest - Potsdam and 2D Semantic Labeling Contest - Vaihingen respectively. Both of the datasets are available upon request \href{https://www.isprs.org/education/benchmarks/UrbanSemLab/detection-and-reconstruction.aspx#VaihigenDataDescr}{here}. Although the images are not taken by satellites, a lot of literature reviewed such as \cite{unetformer}, \cite{a-novel-transformer}, \cite{multi-attention-network} and \cite{A2-FPN} train their semantic segmentation model using these datasets thus we think these merit a bit of discussions. Vaihingen dataset is composed of 33 orthorectified image tiles acquired by a near NIR-RGB drone camera, over the town of Vaihingen, Germany. The average size of the images is 20494 x 20064 pixels with a spatial resolution of 9 cm. Potsdam dataset is composed of 38 orthorectified image tiles acquired  over the town of Potsdam using the same NIR-RGB drone camera.. The average size of the tiles is also 20494 x 20064 pixels but with a smaller spatial resolution of 5 cm. Images in both datasets are accompanied by a digital surface model (DSM) representing the absolute height of pixels. There are a total of 6 classes in each dataset:
+
+\begin{enumerate}
+    \item Impervious Surfaces - roads, concrete surfaces 
+    \item Buildings 
+    \item Low Vegetation 
+    \item Trees 
+    \item Cars  
+    \item Clutter - representing uncategorizable land covers
+\end{enumerate}
+
+\FloatBarrier
+ \begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/potsdam-image.png}
+\centering
+\caption{An Image From Potsdam Dataset}
+\label{fig:potsdam-image}
+\end{figure}
+
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/potsdam-mask.png}
+\centering
+\caption{An mask From Potsdam Dataset}
+\label{fig:potsdam-mask}
+\end{figure}
+
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/vaihingen-image.png}
+\centering
+\caption{An Image From Vaihingen Dataset}
+\label{fig:vaihingen-image}
+\end{figure}
+
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/vaihingen-mask.png}
+\centering
+\caption{An mask From Vaihingen Dataset}
+\label{fig:vaihingen-mask}
+\end{figure}
+
+\FloatBarrier
+%%%LveDA%%%%%%%%it
+
+The LoveDA dataset \cite{loveda} contains 5987 High Spatial Resolution (HSR )images with 166768 annotated pixels from three different cities in China. The images are obtained from Google Earth. The images are divided into two sub-categories: urban and rural. There are nine urban areas selected from different economically developed districts, which are all densely populated. The other nine rural areas were selected from undeveloped districts. The spatial resolution is 0.3 m, with
+red, green, and blue bands. After geometric registration and pre-processing, each area is covered by 1024 × 1024 images, without overlap. LoveDA dataset contains a total of 7 classes: building, road, water, agriculture, barren, forest and background.
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/loveda-image.png}
+\centering
+\caption{An Image From LoveDa Dataset}
+\label{fig:loveda-image}
+\end{figure}
+
+masukka mask
+
+%%%%%%%GID%%%%%%%%%%%%
+The GID-5 dataset \cite{GID2020} contains 120 6800 x 7200 HSR images with 5 classes. The classes are built-up, farmland, meadow, farmland and water which are pixel-level labeled with five different colors: red, green, cyan, yellow,
+and blue, respectively. The images are obtained from Gaofen-2 satellite. GID-5 dataset is widely distributed over the geographic areas covering more than 50,000 $km^2$. Due to the extensive geographical distribution, GID-5 represents the distribution information of ground objects in different areas. Figure \ref{fig:gid-image} and \ref{fig:gid-mask} shows an example of an image and its corresponding mask from Deep Globe dataset.
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/gid image.png}
+\centering
+\caption{An Image From GID-5 Dataset}
+\label{fig:gid-image}
+\end{figure}
+
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/gid mask.png}
+\centering
+\caption{A Mask From GID-5 Dataset}
+\label{fig:gid-mask}
+\end{figure}
+\FloatBarrier
+
+%%deep-globe%%%
+The Deep Globe Land Cover dataset \cite{deep-globe} contains 1146 satellite images of size 2448×
+2448 pixels. The dataset is split into training, validation and test sets, each with 803/171/172 images. All images contain RGB channel, with a pixel resolution of 50 cm. The dataset is  collected from the DigitalGlobe Vivid+ dataset which is an earlier dataset containing satellite images. The annotations are pixel-wise segmentation masks created by professional annotators. There are 7 total classes:
+
+\begin{enumerate}
+    \item Urban land: Man-made, built up areas with human artifacts.
+    \item Agriculture land: Farms, plantation, cropland, orchards, vineyards, nurseries, and ornamental horticultural areas; confined feeding infrastructure.
+    \item Rangeland: Any non-forest, non-farm, green land, grass.
+    \item Forest land: Any land with at least 20\% tree crown density plus clear cuts.
+    \item Water: Rivers, oceans, lakes, wetland, ponds.
+    \item Barren land: Mountain, rock, dessert, beach, land with no vegetation.
+    \item Unknown: Clouds and others.
+\end{enumerate}
+
+
+Figure \ref{fig:deep-globe-image} and \ref{fig:deep-globe-mask} shows an example of an image and its corresponding mask from Deep Globe dataset.
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/deepglobe_img.jpg}
+\centering
+\caption{An Image From Deep Globe Dataset}
+\label{fig:deep-globe-image}
+\end{figure}
+
+\begin{figure}[ht]
+\includegraphics[width=11.5cm, height=7cm]{images/deepglobe_mask.png}
+\centering
+\caption{A Mask From Deep Globe Dataset}
+\label{fig:deep-globe-mask}
+\end{figure}
+\FloatBarrier
+
+
+The LandCover.ai dataset is a  simple RGB-only dataset with spatial resolution of 25 or 50 cm per pixel. There are 33 images with resolution 25 cm(9000 × 9500 px) and 8 images with resolution 50 cm (4200 × 4700 px). Pixel-wise annotations are made manually with VGG Image Annotator (VIA) by a group of people using polygon shape and polylines. LandCover.ai dataset has 5 classes: buildings, woodlands, water, roads and background.
+
+masukkan landcover.ai
+
+
 \section{Semantic Segmentation Before Deep Learning}
 
 This section would elaborate on traditional methods of semantic segmentation, methods that do not apply any neural networks but make heavy use of domain knowledge and feature extraction methods. 
@@ -124,29 +243,42 @@ The SVM described above can only distinguish between binary classes.The one-vs-a
 
 Semantic segmentation task has been long dominated by Convolutional Neural network (CNN). The Fully Convolutional Network (FCN) \cite{7298965} is the first network proven to be an effective method to extract features automatically and serves as an effective end-to-end CNN structure for semantic segmentation task. The outcome of FCN, although encouraging, appears to be coarse due to the over-simplified design of the decoder.
 
-To tackle this problem, better CNNs were proposed such as U-Net \cite{unet} which  introduced the encoder-decoder framework. Since its introduction, the encoder-decoder framework has become the standard structure of satellite images segmentation network \cite{unetformer}. U-Net introduced two symmetric paths: a contracting path, which is also known as the encoder to extract local features, and an expanding path which is also called the decoder, for extracting position. The encoder gradually apply convolutions and max pooling to reduce the resolution of the feature map, while the decoder extracts contextual information by progressively restoring the spatial resolution. At every level of the decoder skip connections are used to by concatenate the output of the decoder with the feature maps from the encoder. Figure \ref{fig:unet} show the U-Net architecture. Benefiting from its translation equivariance and locality, U-Net enhances the semantic segmentation performance significantly and the encode-decoder framework has been a major influence towards the entire field. 
+To tackle this problem, better CNNs were proposed such as U-Net \cite{unet} which  introduced the encoder-decoder framework. Since its introduction, the encoder-decoder framework has become the standard structure of satellite images segmentation network \cite{unetformer}. U-Net introduced two symmetric paths: a contracting path, which is also known as the encoder to extract local features, and an expanding path which is also called the decoder, for extracting position. The encoder gradually apply convolutions and max pooling to reduce the resolution of the feature map, while the decoder extracts contextual information by progressively restoring the spatial resolution. At every level of the decoder skip connections are used to by concatenate the output of the decoder with the feature maps from the encoder. Figure \ref{fig:unet} show the U-Net architecture. Benefiting from its translation equivariance and locality, U-Net enhances the semantic segmentation performance significantly and the encode-decoder framework has been a major influence towards semantic segmentation task. 
 
 \begin{figure}[ht]
-\includegraphics[width=13.5cm, height=9cm]{images/unet.png}
+\includegraphics[width=10.5cm, height=7cm]{images/unet.png}
 \centering
 \caption{U-Net Architecture}
 \label{fig:unet}
 \end{figure}
 
-Even though the results are promising, the long-range dependency of U-Net is limited by the locality property of the convolutional mechanism, which is critical for semantic segmentation. There are two types of methods to address the issue, either modifying the convolution operation or utilizing the attention mechanism. Such examples of the first method is to enlarge the receptive fields using large kernel sizes \cite{enlarge-receptive-field}, or utilising feature pyramids \cite{feature-pyramid}. On the other hand the second method focuses on integrating attention mechanisms with the encoder-decoder architecture to capture long-range dependencies of the feature maps, an example would be Attentive Bilateral Contextual network \cite{abcnet} and Attention U-Net \cite{attention-unet}. Although the second methods showed better performance, both methods fail to liberate the network from the dependence of the encoder-decoder structure. In the context of semantic segmentation, per-pixel classification is often ambiguous if only local information is modelled, while the semantic content of each pixel becomes more accurate with the help of global contextual information \cite{swin-v1}.
+Even though the results are promising, the long-range dependency of U-Net is limited by the locality property of the convolutional mechanism, which is critical for semantic segmentation. There are two types of approaches to address this issue, either modifying the convolution operation or utilizing the attention mechanism. Such examples of the first approach is to enlarge the receptive fields using large kernel sizes \cite{enlarge-receptive-field}, or utilising feature pyramids \cite{feature-pyramid}. On the other hand the second approach focuses on integrating attention mechanisms with the encoder-decoder architecture to capture long-range dependencies of the feature maps, examples can be found in Attentive Bilateral Contextual Network \cite{abcnet} and Attention U-Net \cite{attention-unet}. Although the second approach showed better performance, both approaches failed to decouple the network from the dependence of the encoder-decoder structure. In the context of semantic segmentation, per-pixel classification is often inaccurate if only local information is taken into account \cite{swin-v1}.
 
-Attention U-Net \cite{attention-unet} is 
+Attention U-Net \cite{attention-unet} is a model that aims to improve U-Net by introducing attention gates in the skip connections between the encoder and decoder as shown in \ref{fig:attention-unet}. The results showed that Attention U-Net performs better than traditional U-Net for segmentation of CT scans images.
 
 \begin{figure}[ht]
-\includegraphics[width=13.5cm, height=9cm]{images/attention-unet.png}
+\includegraphics[width=10.5cm, height=7cm]{images/attention-unet.png}
 \centering
 \caption{Attention U-Net Architecture}
 \label{fig:attention-unet}
 \end{figure}
 
+U-Net with added attention mechanism is the approach favored by most literature focusing on semantic segmentation of satellite images. Multi Attention U-Net(MA-Unet) \cite{multi-attention-unet}  uses residual structure and simple attention modules. According to figure \ref{fig:maunet} the decoder in MA-Unet uses transposed convolution and attention modules at every feature fusion stage. MAUnet performed semantic segmentation task on the WHDLD datasets and DLRSD datasets. WDLD dataset have 8 classes while DLRSD dataset have 17 classes covering common classes such as farms, grasslands and lakes. MA-Unet was compareed with other U-Net based models susch as U-Net, U-Net++, Attention U-Net and MagNet on the same task. MA-Unet performs better at segmenting classes with fine details such aeroplanes. MA-Unet has the highest mIOU on both dataset with 63.94\% on WHDLD and 61.90\% on DLRSD.
+
+Spatial Attention U-Net (SA-Unet) \cite{improved-unet} uses atrous spatial pyramid pooling as its encoder and attention modules at every skip connection like we have seen in Attention U-Net.  \cite{attention-unet-road} employs U-Net with attention to extract roads from satellite images. Instead of using simple attention modules at every skip connections, they uses attention module only once at the lowest skip connection.
+
+\begin{figure}[ht]
+\includegraphics[width=10.5cm, height=7cm]{images/maunet.png}
+\centering
+\caption{Multi Attention U-Net Architecture}
+\label{fig:maunet}
+\end{figure}
+
 \section{Semantic Segmentation of Satellite Images Using Vision Transformers}
 
 Transformers were introduced by \cite{attention-is-all-you-need} and since its inception it has been the de facto model for Natural Language Processing (NLP). Transformers that are used for image processing are called Vision Transformers to differentiate it from its NLP counterpart. Vision Transformers essentially translates 2D image-based tasks into 1D sequence-based tasks.
+
+
 
 
 
@@ -164,7 +296,7 @@ Transformers were introduced by \cite{attention-is-all-you-need} and since its i
 
     \item \textit{\textbf{Transformers are Scalable}}
 
-    Transformers has shown excellent scalability in Natural Language Processing. However, when transformers were initially used for computer vision, a lot of researchers doubted it ability to scale because all of the networks are dense as it has to process every pixel as input. Fortunately, there are recent works that shows we can improve the scalability of transformer by increasing its efficiency and reducing its computational load. Vision MoE from Google managed to match the performance of SOTA networks, while slashing the compute time into half by using a sparse network. It managed to train a 15 billions parameter model with 90.35\% accuracy on ImageNet dataset \cite{scaling-sparse}.
+    Transformers has shown excellent scalability in Natural Language Processing. However, when transformers were initially used for computer vision, a lot of researchers doubted it ability to scale because all of the networks are dense as it has to process every pixel as input. Fortunately, there are recent works that shows we can improve the scalability of transformer by increasing its efficiency and reducing its computational load. Vision MoE from Google managed to match the performance of SOTA networks, while slashing the compute time into half by using a sparse network. It managed to train a 15 billions parameter model with 90.35\% accuracy on ImageNet dataset \cite{scaling-sparse}. Figure \ref{fig:scaling} shows the recorded number of parameters in Vision Transformer models from 2018 until 2022
 
 \begin{figure}[ht]
 \includegraphics[width=10cm, height=6.5cm]{images/scaling.png}

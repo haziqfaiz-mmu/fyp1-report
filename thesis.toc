@@ -7,10 +7,10 @@
 \contentsline {chapter}{DEDICATION}{v}{section*.4}
 \contentsline {chapter}{ABSTRACT}{vi}{section*.5}%
 \contentsline {chapter}{TABLE OF CONTENTS}{vii}{section*.6}%
-\contentsline {chapter}{LIST OF TABLES}{x}{section*.7}%
-\contentsline {chapter}{LIST OF FIGURES}{xi}{section*.8}%
+\contentsline {chapter}{LIST OF TABLES}{ix}{section*.7}%
+\contentsline {chapter}{LIST OF FIGURES}{x}{section*.8}%
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Preface}}{xii}{chapter*.9}%
+\contentsline {chapter}{\MakeUppercase {Preface}}{xi}{chapter*.9}%
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {1}\MakeUppercase {Introduction, Background Story, Motivations}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background Introduction}{1}{section.1.1}%
@@ -24,46 +24,46 @@
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {2}\MakeUppercase {LITERATURE REVIEW}}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Satellite Images Datasets}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Semantic Segmentation Before Deep Learning}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Feature Extraction}{10}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Random Decision Forest for Semantic Segmentation}{13}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Support Vector Machines (SVM) for Semantic Segmentation}{13}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Markov Random Field (MRF)}{15}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Conditional Random Field (CRF) for Semantic Segmentation}{15}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}Limitations of Traditional Methods}{16}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Semantic Segmentation of Satellite Images Using Convolutional Neural Networks}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Semantic Segmentation of Satellite Images Using Vision Transformers}{19}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Advantages of Vision Transformer for Semantic Segmentation of Satellite Images}{20}{section.2.6}%
+\contentsline {section}{\numberline {2.2}Semantic Segmentation Before Deep Learning}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Feature Extraction}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Random Decision Forest for Semantic Segmentation}{21}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Support Vector Machines (SVM) for Semantic Segmentation}{21}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Markov Random Field (MRF)}{23}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Conditional Random Field (CRF) for Semantic Segmentation}{24}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Limitations of Traditional Methods}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Semantic Segmentation of Satellite Images Using Convolutional Neural Networks}{25}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Semantic Segmentation of Satellite Images Using Vision Transformers}{29}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Advantages of Vision Transformer for Semantic Segmentation of Satellite Images}{30}{section.2.6}%
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {3}\MakeUppercase {THEORETICAL FRAMEWORK}}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}A Brief History of Deep Learning}{23}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Theoretical Introduction to Deep Learning}{27}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Convolutional Neural Networks and Its Application in Semantic Segmentation of Satellite Images}{27}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.1 (a)}Activation Functions}{27}{subsubsection.3.2.1.1}%
-\contentsline {section}{\numberline {3.3}Introduction to Transformers}{27}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Encoder-Decoder Architecture}{28}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Sequence-To-Sequence}{28}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Attention Mechanism}{28}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Embedding and Positional Encoding}{28}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}sdsds}{28}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Transformers Architecture}{28}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Vision Transformer (ViT)}{28}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Swin Transformer}{29}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}SegFormer}{32}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}MaskFormer}{32}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Beit}{32}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}DeepLabV3}{32}{subsection.3.4.6}%
-\contentsline {section}{\numberline {3.5}Evaluation Metrics}{32}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Limitations}{32}{section.3.6}%
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase {THEORETICAL FRAMEWORK}}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}A Brief History of Deep Learning}{33}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Theoretical Introduction to Deep Learning}{38}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Convolutional Neural Networks and Its Application in Semantic Segmentation of Satellite Images}{38}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1 (a)}Activation Functions}{38}{subsubsection.3.2.1.1}%
+\contentsline {section}{\numberline {3.3}Introduction to Transformers}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Encoder-Decoder Architecture}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Sequence-To-Sequence}{38}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Attention Mechanism}{38}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Embedding and Positional Encoding}{38}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}sdsds}{38}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Transformers Architecture}{39}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Vision Transformer (ViT)}{39}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Swin Transformer}{39}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}SegFormer}{42}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}MaskFormer}{42}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Beit}{42}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}DeepLabV3}{42}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}Evaluation Metrics}{42}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Limitations}{42}{section.3.6}%
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Dummy Chapter}}{33}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Dummy Chapter}}{43}{chapter.4}%
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {5}\MakeUppercase {Conclusion}}{34}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase {Conclusion}}{44}{chapter.5}%
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{35}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{45}{appendix.A}%
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{36}{appendix.B}%
-\contentsline {chapter}{REFERENCES}{37}{appendix*.10}%
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{46}{appendix.B}%
+\contentsline {chapter}{REFERENCES}{47}{appendix*.10}%
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Notes}}{42}{appendix*.11}%
-\contentsline {chapter}{PUBLICATION LIST}{43}{appendix*.12}%
+\contentsline {chapter}{\MakeUppercase {Notes}}{53}{appendix*.11}%
+\contentsline {chapter}{PUBLICATION LIST}{54}{appendix*.12}%

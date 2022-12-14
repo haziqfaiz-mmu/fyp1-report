@@ -1179,6 +1179,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT ./myacronyms.tex
 INPUT ./myacronyms.tex
 INPUT ./myacronyms.tex
@@ -1483,14 +1484,59 @@ INPUT ./chapter-2-lit-review.tex
 INPUT chapter-2-lit-review.tex
 INPUT ./chapter-2-lit-review.tex
 INPUT chapter-2-lit-review.tex
+INPUT ./images/potsdam-image.png
+INPUT ./images/potsdam-image.png
+INPUT images/potsdam-image.png
+INPUT ./images/potsdam-image.png
+INPUT ./images/potsdam-image.png
+INPUT ./images/potsdam-mask.png
+INPUT ./images/potsdam-mask.png
+INPUT images/potsdam-mask.png
+INPUT ./images/potsdam-mask.png
+INPUT ./images/potsdam-mask.png
+INPUT ./images/vaihingen-image.png
+INPUT ./images/vaihingen-image.png
+INPUT images/vaihingen-image.png
+INPUT ./images/vaihingen-image.png
+INPUT ./images/vaihingen-image.png
+INPUT ./images/vaihingen-mask.png
+INPUT ./images/vaihingen-mask.png
+INPUT images/vaihingen-mask.png
+INPUT ./images/vaihingen-mask.png
+INPUT ./images/vaihingen-mask.png
+INPUT ./images/loveda-image.png
+INPUT ./images/loveda-image.png
+INPUT images/loveda-image.png
+INPUT ./images/loveda-image.png
+INPUT ./images/loveda-image.png
+INPUT ./images/gid image.png
+INPUT ./images/gid image.png
+INPUT images/gid image.png
+INPUT ./images/gid image.png
+INPUT ./images/gid image.png
+INPUT ./images/gid mask.png
+INPUT ./images/gid mask.png
+INPUT images/gid mask.png
+INPUT ./images/gid mask.png
+INPUT ./images/gid mask.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./images/deepglobe_img.jpg
+INPUT ./images/deepglobe_img.jpg
+INPUT images/deepglobe_img.jpg
+INPUT ./images/deepglobe_img.jpg
+INPUT ./images/deepglobe_img.jpg
+INPUT ./images/deepglobe_mask.png
+INPUT ./images/deepglobe_mask.png
+INPUT images/deepglobe_mask.png
+INPUT ./images/deepglobe_mask.png
+INPUT ./images/deepglobe_mask.png
 INPUT ./images/hog.png
 INPUT ./images/hog.png
 INPUT images/hog.png
 INPUT ./images/hog.png
 INPUT ./images/hog.png
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
@@ -1529,6 +1575,11 @@ INPUT ./images/attention-unet.png
 INPUT images/attention-unet.png
 INPUT ./images/attention-unet.png
 INPUT ./images/attention-unet.png
+INPUT ./images/maunet.png
+INPUT ./images/maunet.png
+INPUT images/maunet.png
+INPUT ./images/maunet.png
+INPUT ./images/maunet.png
 INPUT ./images/scaling.png
 INPUT ./images/scaling.png
 INPUT images/scaling.png
@@ -1544,6 +1595,11 @@ INPUT ./chapter-3-theory.tex
 INPUT chapter-3-theory.tex
 INPUT ./chapter-3-theory.tex
 INPUT chapter-3-theory.tex
+INPUT ./images/Rosenblattperceptron.png
+INPUT ./images/Rosenblattperceptron.png
+INPUT images/Rosenblattperceptron.png
+INPUT ./images/Rosenblattperceptron.png
+INPUT ./images/Rosenblattperceptron.png
 INPUT ./images/vision transformer.png
 INPUT ./images/vision transformer.png
 INPUT images/vision transformer.png

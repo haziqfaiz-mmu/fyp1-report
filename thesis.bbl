@@ -95,6 +95,38 @@ Chi, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Demir%
+\ \protect \BOthers {.}}{%
+Demir%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+deep-globe}
+\APACinsertmetastar {%
+deep-globe}%
+\begin{APACrefauthors}%
+Demir, I.%
+, Koperski, K.%
+, Lindenbaum, D.%
+, Pang, G.%
+, Huang, J.%
+, Basu, S.%
+\BDBL {}Raskar, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {DeepGlobe 2018: {A} Challenge to Parse the Earth through
+  Satellite Images} {Deepglobe 2018: {A} challenge to parse the earth through
+  satellite images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/1805.06561}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://arxiv.org/abs/1805.06561} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dosovitskiy%
 \ \protect \BOthers {.}}{%
 Dosovitskiy%
@@ -124,6 +156,41 @@ Dosovitskiy, A.%
 \APACjournalVolNumPages{CoRR}{abs/2010.11929}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://arxiv.org/abs/2010.11929} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fan%
+, Yan%
+, Fan%
+\BCBL {}\ \BBA {} Wang%
+}{%
+Fan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+improved-unet}
+\APACinsertmetastar {%
+improved-unet}%
+\begin{APACrefauthors}%
+Fan, X.%
+, Yan, C.%
+, Fan, J.%
+\BCBL {}\ \BBA {} Wang, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Improved U-Net Remote Sensing Classification Algorithm
+  Fusing Attention and Multiscale Features} {Improved u-net remote sensing
+  classification algorithm fusing attention and multiscale features}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{14}{15}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2072-4292/14/15/3591}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/rs14153591} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -234,9 +301,79 @@ Leach, N\BPBI R.%
 
 \bibitem [\protect \citeauthoryear {%
 Li%
+, Zheng%
+\BCBL {}\ \BBA {} Duan%
+}{%
+Li%
+, Zheng%
+\BCBL {}\ \BBA {} Duan%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+A2-FPN}
+\APACinsertmetastar {%
+A2-FPN}%
+\begin{APACrefauthors}%
+Li, R.%
+, Zheng, S.%
+\BCBL {}\ \BBA {} Duan, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Feature Pyramid Network with Multi-Head Attention for
+  Semantic Segmentation of Fine-Resolution Remotely Sensed Images} {Feature
+  pyramid network with multi-head attention for semantic segmentation of
+  fine-resolution remotely sensed images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2102.07997}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2102.07997} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
 \ \protect \BOthers {.}}{%
 Li%
 \ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+multi-attention-network}
+\APACinsertmetastar {%
+multi-attention-network}%
+\begin{APACrefauthors}%
+Li, R.%
+, Zheng, S.%
+, Zhang, C.%
+, Duan, C.%
+, Su, J.%
+, Wang, L.%
+\BCBL {}\ \BBA {} Atkinson, P\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multiattention Network for Semantic Segmentation of
+  Fine-Resolution Remote Sensing Images} {Multiattention network for semantic
+  segmentation of fine-resolution remote sensing images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{60}{}{1-13}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TGRS.2021.3093977} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+, Zheng%
+, Zhang%
+\BCBL {}\ \protect \BOthers {.}}{%
+Li%
+, Zheng%
+, Zhang%
+\BCBL {}\ \protect \BOthers {.}}{%
 {\protect \APACyear {2021}}%
 }]{%
 abcnet}
@@ -558,6 +695,43 @@ Ronneberger, O.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rottensteiner%
+\ \protect \BOthers {.}}{%
+Rottensteiner%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+potsdam-vaihingen}
+\APACinsertmetastar {%
+potsdam-vaihingen}%
+\begin{APACrefauthors}%
+Rottensteiner, F.%
+, Sohn, G.%
+, Jung, J.%
+, Gerke, M.%
+, Baillard, C.%
+, Benitez, S.%
+\BCBL {}\ \BBA {} Breitkopf, U.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {THE ISPRS BENCHMARK ON URBAN OBJECT CLASSIFICATION AND
+  3D BUILDING RECONSTRUCTION} {The isprs benchmark on urban object
+  classification and 3d building reconstruction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Annals of the Photogrammetry, Remote Sensing and
+  Spatial Information Sciences}{I-3}{}{293--298}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/I-3/293/2012/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5194/isprsannals-I-3-293-2012} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Schroff%
 , Criminisi%
 \BCBL {}\ \BBA {} Zisserman%
@@ -582,6 +756,41 @@ Schroff, F.%
   class segmentation using random forests}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {BMVC.} {Bmvc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sun%
+, Bi%
+, Gao%
+, Chen%
+\BCBL {}\ \BBA {} Feng%
+}{%
+Sun%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+multi-attention-unet}
+\APACinsertmetastar {%
+multi-attention-unet}%
+\begin{APACrefauthors}%
+Sun, Y.%
+, Bi, F.%
+, Gao, Y.%
+, Chen, L.%
+\BCBL {}\ \BBA {} Feng, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Multi-Attention UNet for Semantic Segmentation in
+  Remote Sensing Images} {A multi-attention unet for semantic segmentation in
+  remote sensing images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Symmetry}{14}{5}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2073-8994/14/5/906}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -616,6 +825,38 @@ Talal, M.%
 \begin{APACrefURL}
   \url{https://go.openathens.net/redirector/mmu.edu.my?url={UrlEncode(https://search.ebscohost.com/login.aspx?direct=true&AuthType=shib&db=edseee&AN=edseee.8642743&site=eds-live)},
   Year = {2018},} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tao%
+, Ding%
+\BCBL {}\ \BBA {} Cao%
+}{%
+Tao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+attention-unet-road}
+\APACinsertmetastar {%
+attention-unet-road}%
+\begin{APACrefauthors}%
+Tao, M.%
+, Ding, Z.%
+\BCBL {}\ \BBA {} Cao, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Attention U-Net for Road Extraction in Remote Sensing
+  Images} {Attention u-net for road extraction in remote sensing
+  images}.{\BBCQ}
+\newblock
+\BIn{} X.~Meng, X.~Xie, Y.~Yue\BCBL {}\ \BBA {} Z.~Ding\ (\BEDS),
+  \APACrefbtitle {Spatial Data and Intelligence} {Spatial data and
+  intelligence}\ (\BPGS\ 153--164).
+\newblock
+\APACaddressPublisher{Cham}{Springer International Publishing}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -672,6 +913,37 @@ Thoma, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Tong%
+\ \protect \BOthers {.}}{%
+Tong%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+GID2020}
+\APACinsertmetastar {%
+GID2020}%
+\begin{APACrefauthors}%
+Tong, X\BHBI Y.%
+, Xia, G\BHBI S.%
+, Lu, Q.%
+, Shen, H.%
+, Li, S.%
+, You, S.%
+\BCBL {}\ \BBA {} Zhang, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Land-cover classification with high-resolution remote
+  sensing images using transferable deep models} {Land-cover classification
+  with high-resolution remote sensing images using transferable deep
+  models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing of Environment}{237}{}{111322}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Vaswani%
 \ \protect \BOthers {.}}{%
 Vaswani%
@@ -703,13 +975,43 @@ Vaswani, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Wang%
+J.~Wang%
+, Zheng%
+, Ma%
+, Lu%
+\BCBL {}\ \BBA {} Zhong%
+}{%
+J.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+loveda}
+\APACinsertmetastar {%
+loveda}%
+\begin{APACrefauthors}%
+Wang, J.%
+, Zheng, Z.%
+, Ma, A.%
+, Lu, X.%
+\BCBL {}\ \BBA {} Zhong, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{10}{}.
+\newblock
+{\BBOQ}\APACrefatitle {LoveDA: A Remote Sensing Land-Cover Dataset for Domain
+  Adaptive Semantic Segmentation} {Loveda: A remote sensing land-cover dataset
+  for domain adaptive semantic segmentation}.{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+L.~Wang%
 , Fang%
 , Zhang%
 , Li%
 \BCBL {}\ \BBA {} Duan%
 }{%
-Wang%
+L.~Wang%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2021}}%
 }]{%
@@ -734,6 +1036,38 @@ Wang, L.%
 \APACjournalVolNumPages{CoRR}{abs/2109.08937}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://arxiv.org/abs/2109.08937} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+L.~Wang%
+\ \protect \BOthers {.}}{%
+L.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+a-novel-transformer}
+\APACinsertmetastar {%
+a-novel-transformer}%
+\begin{APACrefauthors}%
+Wang, L.%
+, Li, R.%
+, Duan, C.%
+, Zhang, C.%
+, Meng, X.%
+\BCBL {}\ \BBA {} Fang, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Novel Transformer Based Semantic Segmentation Scheme
+  for Fine-Resolution Remote Sensing Images} {A novel transformer based
+  semantic segmentation scheme for fine-resolution remote sensing
+  images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Geoscience and Remote Sensing Letters}{19}{}{1-5}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/LGRS.2022.3143368} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

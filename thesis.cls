@@ -378,6 +378,7 @@ Date: \todayiso
     \fi
     \ignorespaces
 }
+
 \fi
 % step counter at each bibitem
 \patchcommand{\bibitem}{\addtocounter{lbibcount}{1}}{}
