@@ -19,45 +19,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "lanet"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 36 entries,
+You've used 38 entries,
             6951 wiz_defined-function locations,
-            1506 strings with 20459 characters,
-and the built_in function-call counts, 84049 in all, are:
-= -- 9931
-> -- 881
-< -- 4051
-+ -- 4401
-- -- 72
-* -- 5647
-:= -- 14894
-add.period$ -- 148
-call.type$ -- 36
-change.case$ -- 598
+            1517 strings with 20984 characters,
+and the built_in function-call counts, 88962 in all, are:
+= -- 10489
+> -- 935
+< -- 4326
++ -- 4686
+- -- 76
+* -- 5995
+:= -- 15827
+add.period$ -- 156
+call.type$ -- 38
+change.case$ -- 632
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 2827
-empty$ -- 3274
-format.name$ -- 1698
-if$ -- 15550
+cite$ -- 76
+duplicate$ -- 2978
+empty$ -- 3452
+format.name$ -- 1798
+if$ -- 16428
 int.to.chr$ -- 0
-int.to.str$ -- 108
+int.to.str$ -- 114
 missing$ -- 0
-newline$ -- 1070
-num.names$ -- 294
-pop$ -- 1374
+newline$ -- 1134
+num.names$ -- 310
+pop$ -- 1435
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 156
 quote$ -- 0
-skip$ -- 5101
+skip$ -- 5386
 stack$ -- 0
-substring$ -- 4826
-swap$ -- 1559
-text.length$ -- 114
+substring$ -- 5121
+swap$ -- 1639
+text.length$ -- 118
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3328
+type$ -- 3488
 warning$ -- 0
-while$ -- 613
+while$ -- 645
 width$ -- 0
-write$ -- 1432
+write$ -- 1522
+(There was 1 warning)
