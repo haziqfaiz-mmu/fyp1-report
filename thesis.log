@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.19)  15 DEC 2022 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.28)  17 DEC 2022 01:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,28 +944,28 @@ Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
 ) (./thesis.aux (./chapter-1-intro.aux) (./chapter-2-lit-review.aux) (./chapter-3-theory.aux) (./chapter-4-methodology.aux) (./chapter-5-conclusion.aux) (./sample-appen-manual.aux) (./sample-appen-try.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -977,10 +977,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 24.
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write9
 \openout9 = `thesis.out'.
@@ -1009,7 +1009,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 24.
+LaTeX Info: Redefining \selectfont on input line 23.
  [1
 
 \openout7 = `thesis.ist'.
@@ -1018,45 +1018,45 @@ LaTeX Info: Redefining \selectfont on input line 24.
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \makecoverandtitlepage
+l.25 \makecoverandtitlepage
                             [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \makecoverandtitlepage
+l.25 \makecoverandtitlepage
                             [1
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 27.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 27.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 27.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 27.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 27.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.36008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.40009> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2
@@ -1337,74 +1337,75 @@ Package pdftex.def Info: images/lanet.png  used on input line 326.
                                                   
 l.332 \FloatBarrier
                     <./images/frh.jpg>]
-<images/pam.png, id=774, 829.0975pt x 539.01375pt>
+<images/pam.png, id=775, 829.0975pt x 539.01375pt>
 File: images/pam.png Graphic file (type png)
 <use images/pam.png>
-Package pdftex.def Info: images/pam.png  used on input line 336.
-(pdftex.def)             Requested size: 270.30112pt x 128.03354pt.
-<images/aem.png, id=775, 829.0975pt x 539.01375pt>
-File: images/aem.png Graphic file (type png)
-<use images/aem.png>
-Package pdftex.def Info: images/aem.png  used on input line 347.
+Package pdftex.def Info: images/pam.png  used on input line 342.
 (pdftex.def)             Requested size: 270.30112pt x 128.03354pt.
  [34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.352 \FloatBarrier
-                   pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19}) has been already used, duplicate ignored
+l.347 \FloatBarrier
+                    <./images/lanet.png>]
+<images/aem.png, id=783, 829.0975pt x 539.01375pt>
+File: images/aem.png Graphic file (type png)
+<use images/aem.png>
+Package pdftex.def Info: images/aem.png  used on input line 353.
+(pdftex.def)             Requested size: 270.30112pt x 128.03354pt.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.352 \FloatBarrier
-                    <./images/lanet.png> <./images/pam.png>] [35pdfTeX warning (ext4): destination with the same identifier (name{figure.2.20}) has been already used, duplicate ignored
+l.358 \FloatBarrier
+                    <./images/pam.png>] [36pdfTeX warning (ext4): destination with the same identifier (name{figure.2.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.367 
-       <./images/aem.png>] [36]
-<images/scaling.png, id=816, 469.755pt x 305.4612pt>
+l.379 
+       <./images/aem.png>] [37]
+<images/scaling.png, id=825, 469.755pt x 305.4612pt>
 File: images/scaling.png Graphic file (type png)
 <use images/scaling.png>
-Package pdftex.def Info: images/scaling.png  used on input line 382.
+Package pdftex.def Info: images/scaling.png  used on input line 394.
 (pdftex.def)             Requested size: 284.5288pt x 184.94675pt.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.2.21}) has been already used, duplicate ignored
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.2.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.394     \item \textit
-                       {Inexact supervision} - The labelling is not as exact... <./images/scaling.png>]) [38]
+l.407     \item \textit
+                       {Inaccurate supervision} - The labels are wrong. <./images/scaling.png>]) [39]
 \openout2 = `chapter-3-theory.aux'.
 
- (./chapter-3-theory.tex [39
+ (./chapter-3-theory.tex [40
 
 
 
 
-] [40] [41] [42]
-<images/Rosenblattperceptron.png, id=851, 602.25pt x 286.06876pt>
+] [41] [42] [43]
+<images/Rosenblattperceptron.png, id=860, 602.25pt x 286.06876pt>
 File: images/Rosenblattperceptron.png Graphic file (type png)
 <use images/Rosenblattperceptron.png>
 Package pdftex.def Info: images/Rosenblattperceptron.png  used on input line 111.
 (pdftex.def)             Requested size: 298.76253pt x 156.49147pt.
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.121 \subsubsection
-                    {Activation Functions} <./images/Rosenblattperceptron.png>] [44]
-<images/vision transformer.png, id=865, 770.88pt x 582.175pt>
+                    {Activation Functions} <./images/Rosenblattperceptron.png>] [45]
+<images/vision transformer.png, id=874, 770.88pt x 582.175pt>
 File: images/vision transformer.png Graphic file (type png)
 <use images/vision transformer.png>
 Package pdftex.def Info: images/vision transformer.png  used on input line 138.
 (pdftex.def)             Requested size: 384.10988pt x 256.07784pt.
- [45]
-<images/swin-architecture.jpg, id=874, 339.2675pt x 370.38374pt>
+ [46]
+<images/swin-architecture.jpg, id=883, 339.2675pt x 370.38374pt>
 File: images/swin-architecture.jpg Graphic file (type jpg)
 <use images/swin-architecture.jpg>
 Package pdftex.def Info: images/swin-architecture.jpg  used on input line 150.
 (pdftex.def)             Requested size: 270.3117pt x 199.17345pt.
-<images/swin-cyclic-shift.jpg, id=875, 722.7pt x 209.78375pt>
+<images/swin-cyclic-shift.jpg, id=884, 722.7pt x 209.78375pt>
 File: images/swin-cyclic-shift.jpg Graphic file (type jpg)
 <use images/swin-cyclic-shift.jpg>
 Package pdftex.def Info: images/swin-cyclic-shift.jpg  used on input line 157.
 (pdftex.def)             Requested size: 384.10986pt x 156.48914pt.
- [46pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.163 \FloatBarrier
@@ -1413,12 +1414,12 @@ l.163 \FloatBarrier
                                                   
 l.163 \FloatBarrier
                     <./images/vision transformer.png> <./images/swin-architecture.jpg>]
-<images/swin1-vs-swin2.jpg, id=881, 722.7pt x 433.62pt>
+<images/swin1-vs-swin2.jpg, id=891, 722.7pt x 433.62pt>
 File: images/swin1-vs-swin2.jpg Graphic file (type jpg)
 <use images/swin1-vs-swin2.jpg>
 Package pdftex.def Info: images/swin1-vs-swin2.jpg  used on input line 165.
 (pdftex.def)             Requested size: 384.10986pt x 270.31049pt.
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.187     \item I
@@ -1426,10 +1427,10 @@ l.187     \item I
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.187     \item I
-                 nadequate computing. <./images/swin-cyclic-shift.jpg> <./images/swin1-vs-swin2.jpg>]) [48]
+                 nadequate computing. <./images/swin-cyclic-shift.jpg> <./images/swin1-vs-swin2.jpg>]) [49]
 \openout2 = `chapter-4-methodology.aux'.
 
- (./chapter-4-methodology.tex) [49
+ (./chapter-4-methodology.tex) [50
 
 
 
@@ -1437,7 +1438,7 @@ l.187     \item I
 ]
 \openout2 = `chapter-5-conclusion.aux'.
 
- (./chapter-5-conclusion.tex) [50
+ (./chapter-5-conclusion.tex) [51
 
 
 
@@ -1445,7 +1446,7 @@ l.187     \item I
 ]
 \openout2 = `sample-appen-manual.aux'.
 
- (./sample-appen-manual.tex) [51
+ (./sample-appen-manual.tex) [52
 
 
 
@@ -1453,7 +1454,7 @@ l.187     \item I
 ]
 \openout2 = `sample-appen-try.aux'.
 
- (./sample-appen-try.tex) [52
+ (./sample-appen-try.tex) [53
 
 
 
@@ -1469,7 +1470,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
- [53
+ [54
 
 
 
@@ -1499,7 +1500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--301
 \T1/lmvtt/m/n/10 search [] .ebscohost [] .com / login [] .aspx [] ?direct = true&AuthType = shib&db = edseee&AN =
  []
 
-[54] [55]
+[55] [56]
 Underfull \hbox (badness 1460) in paragraph at lines 876--898
 \T1/ptm/m/n/10 De-tec-tion of water-bodies us-ing se-man-tic seg-men-ta-tion.  \T1/ptm/m/it/10 2018 In-ter-na-tional Con-fer-ence
  []
@@ -1524,9 +1525,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 876--898
 \T1/lmvtt/m/n/10 search [] .ebscohost [] .com / login [] .aspx [] ?direct = true&AuthType = shib&db = edseee&AN =
  []
 
-[56] [57])
+[57] [58])
 No file thesis.gls.
-[58] (./thesis.ent) (./thesis.ind) (./own.bbl [59
+[59] (./thesis.ent) (./thesis.ind) (./own.bbl [60
 
 ]
 
@@ -1535,9 +1536,9 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 )
 \openout4 = `thesis.ent'.
 
- [60
+ [61
 
-] [61
+] [62
 
 ]
 \tf@toc=\write10
@@ -1557,20 +1558,20 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: E0EF992A75F9355CEE0340B432A5A2C1;11629.
  ) 
 Here is how much of TeX's memory you used:
- 20108 strings out of 480806
- 299191 string characters out of 5905151
+ 20113 strings out of 480806
+ 299230 string characters out of 5905151
  838025 words of memory out of 6000000
  36738 multiletter control sequences out of 15000+600000
- 485904 words of font info for 153 fonts, out of 8000000 for 9000
+ 487768 words of font info for 156 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  106i,13n,105p,1626b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.lanet} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (75 pages, 78296371 bytes).
+Output written on thesis.pdf (76 pages, 78298512 bytes).
 PDF statistics:
- 1094 PDF objects out of 1200 (max. 8388607)
- 953 compressed objects within 10 object streams
- 243 named destinations out of 1000 (max. 500000)
+ 1103 PDF objects out of 1200 (max. 8388607)
+ 961 compressed objects within 10 object streams
+ 245 named destinations out of 1000 (max. 500000)
  621 words of extra memory for PDF output out of 10000 (max. 10000000)
 

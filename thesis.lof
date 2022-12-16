@@ -23,15 +23,15 @@
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Global-Local Transformer Block in UNetFormer}}{31}{figure.2.16}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Feature refinement Head of UNetFormer}}{33}{figure.2.17}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces LANet Architecture}}{34}{figure.2.18}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Patch Attention Module in LANet}}{34}{figure.2.19}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Attention Embedding Module in LANet}}{35}{figure.2.20}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces The size records of vision transformer in recent years}}{37}{figure.2.21}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Patch Attention Module in LANet}}{35}{figure.2.19}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Attention Embedding Module in LANet}}{36}{figure.2.20}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces The size records of vision transformer in recent years}}{38}{figure.2.21}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{43}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ViT Architecture}}{46}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Swin Transformer V1 Architecture}}{46}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cyclic Shifted Windows in Swin Transformer}}{47}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Difference Between Swin V1 and Swin V2}}{47}{figure.3.5}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{44}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ViT Architecture}}{47}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Swin Transformer V1 Architecture}}{47}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cyclic Shifted Windows in Swin Transformer}}{48}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Difference Between Swin V1 and Swin V2}}{48}{figure.3.5}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

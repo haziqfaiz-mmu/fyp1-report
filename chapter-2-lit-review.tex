@@ -331,7 +331,13 @@ Local Attention Network (LANet) \cite{lanet}introduced two additional modules to
 
 \FloatBarrier
 
-PAM
+Referring to figure \ref{fig:pam}, PAM will first generate a local descriptor for each channel of every patch. The descriptor $z_c$ for the $c$ th channel of a patch is calculated as
+
+\begin{equation}
+    z_c = \frac{1}{h_p w_p} \sum_{i=1}^{h_p} \sum_{j=1}^{w_p} x_c(i,j)
+\end{equation}
+
+where $h_p$ and $w_p$ is the horizontal and vertical size of the patch and $x_c$ is the pixel value at the $c$ th channel. In this way, a c-channel vector $z_p$ will be generated, which contains the statistics describing the patch p. Then, they apply convolutional layer to learn an attention vector $a_p \in \mathbb{R}^{c \times h_p \times w_p}$. The entire gating operation to generate attention maps includes a 1 x 1 dimension-reduction convolution, 1×1 dimension-increasing convolution that recovers the feature dimension back to $c$ and an upsampling operation.
 \begin{figure}[ht]
 \includegraphics[width=9.5cm, height=4.5cm]{images/pam.png}
 \centering
@@ -342,7 +348,7 @@ PAM
 
 
 
-AEM
+In most networks, the most frequently used way of employing low-level features is to concatenate them with high-level features, which brings only slight improvement in performance. The authors proposed AEM to bridge the gap between high-level and low-level features without sacrificing the spatial details of the latter. Figure \ref{fig:aem} shows the implementation of AEM. First, they generate a high-level feature descriptor map, $z_c$ and low-level descriptor map , $x_c$ usinging the same formula in PAM. Then, an attention map, $a_c$ is generated using average pooling, 1 x 1 convolution and upsampling. Finally $a_c$ will be added to $x_c$ to generate an improved low-level descriptor.  
 \begin{figure}[ht]
 \includegraphics[width=9.5cm, height=4.5cm]{images/aem.png}
 \centering
@@ -352,7 +358,13 @@ AEM
 \FloatBarrier
 
 
-result LANet
+%%%%%%%A Novel Transformer Based Semantic Segmentation Scheme for Fine-Resolution
+
+
+%%%%%%%%%% BANET
+
+
+%%%%%%MANET
 
 
 
