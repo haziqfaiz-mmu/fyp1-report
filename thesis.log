@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.28)  15 DEC 2022 02:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.6.19)  15 DEC 2022 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1299,78 +1299,77 @@ Overfull \hbox (57.33942pt too wide) in paragraph at lines 286--287
  []
 
 [30]
-<images/unetformer.jpg, id=752, 369.66425pt x 369.66425pt>
+<images/unetformer.jpg, id=750, 369.66425pt x 369.66425pt>
 File: images/unetformer.jpg Graphic file (type jpg)
 <use images/unetformer.jpg>
-Package pdftex.def Info: images/unetformer.jpg  used on input line 296.
+Package pdftex.def Info: images/unetformer.jpg  used on input line 292.
 (pdftex.def)             Requested size: 298.75517pt x 199.1701pt.
-<images/gltb.png, id=753, 668.4975pt x 568.1225pt>
+<images/gltb.png, id=751, 668.4975pt x 568.1225pt>
 File: images/gltb.png Graphic file (type png)
 <use images/gltb.png>
-Package pdftex.def Info: images/gltb.png  used on input line 303.
+Package pdftex.def Info: images/gltb.png  used on input line 299.
 (pdftex.def)             Requested size: 298.7606pt x 199.1666pt.
-<images/frh.jpg, id=755, 355.59398pt x 301.87115pt>
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.307 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.2.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.307 
+       <./images/unetformer.jpg> <./images/gltb.png>]
+<images/frh.jpg, id=760, 355.59398pt x 301.87115pt>
 File: images/frh.jpg Graphic file (type jpg)
 <use images/frh.jpg>
-Package pdftex.def Info: images/frh.jpg  used on input line 310.
+Package pdftex.def Info: images/frh.jpg  used on input line 313.
 (pdftex.def)             Requested size: 298.77829pt x 199.17569pt.
- [31] [32pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.316 \FloatBarrier
-                   pdfTeX warning (ext4): destination with the same identifier (name{figure.2.16}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.316 \FloatBarrier
-                    <./images/unetformer.jpg> <./images/gltb.png>] [33pdfTeX warning (ext4): destination with the same identifier (name{figure.2.17}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.316 \FloatBarrier
-                    <./images/frh.jpg>]
+ [32]
 
-LaTeX Warning: Citation `lanet' undefined on input line 319.
+LaTeX Warning: Citation `lanet' undefined on input line 322.
 
-<images/lanet.png, id=772, 829.0975pt x 539.01375pt>
+<images/lanet.png, id=768, 829.0975pt x 539.01375pt>
 File: images/lanet.png Graphic file (type png)
 <use images/lanet.png>
-Package pdftex.def Info: images/lanet.png  used on input line 323.
+Package pdftex.def Info: images/lanet.png  used on input line 326.
 (pdftex.def)             Requested size: 355.65736pt x 270.304pt.
-<images/pam.png, id=773, 829.0975pt x 539.01375pt>
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.2.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.332 \FloatBarrier
+                    <./images/frh.jpg>]
+<images/pam.png, id=774, 829.0975pt x 539.01375pt>
 File: images/pam.png Graphic file (type png)
 <use images/pam.png>
-Package pdftex.def Info: images/pam.png  used on input line 333.
+Package pdftex.def Info: images/pam.png  used on input line 336.
 (pdftex.def)             Requested size: 270.30112pt x 128.03354pt.
-[34
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.338 \FloatBarrier
-                    <./images/lanet.png>]
-<images/aem.png, id=780, 829.0975pt x 539.01375pt>
+<images/aem.png, id=775, 829.0975pt x 539.01375pt>
 File: images/aem.png Graphic file (type png)
 <use images/aem.png>
-Package pdftex.def Info: images/aem.png  used on input line 344.
+Package pdftex.def Info: images/aem.png  used on input line 347.
 (pdftex.def)             Requested size: 270.30112pt x 128.03354pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19}) has been already used, duplicate ignored
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.362 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.2.20}) has been already used, duplicate ignored
+l.352 \FloatBarrier
+                   pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.362 
-       <./images/pam.png> <./images/aem.png>] [36]
-<images/scaling.png, id=815, 469.755pt x 305.4612pt>
+l.352 \FloatBarrier
+                    <./images/lanet.png> <./images/pam.png>] [35pdfTeX warning (ext4): destination with the same identifier (name{figure.2.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.367 
+       <./images/aem.png>] [36]
+<images/scaling.png, id=816, 469.755pt x 305.4612pt>
 File: images/scaling.png Graphic file (type png)
 <use images/scaling.png>
-Package pdftex.def Info: images/scaling.png  used on input line 379.
+Package pdftex.def Info: images/scaling.png  used on input line 382.
 (pdftex.def)             Requested size: 284.5288pt x 184.94675pt.
- [37]) [38pdfTeX warning (ext4): destination with the same identifier (name{figure.2.21}) has been already used, duplicate ignored
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.2.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.45 \include{chapter-2-lit-review}
-                                    <./images/scaling.png>]
+l.394     \item \textit
+                       {Inexact supervision} - The labelling is not as exact... <./images/scaling.png>]) [38]
 \openout2 = `chapter-3-theory.aux'.
 
  (./chapter-3-theory.tex [39
@@ -1568,7 +1567,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{cite.lanet} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (75 pages, 78296312 bytes).
+Output written on thesis.pdf (75 pages, 78296371 bytes).
 PDF statistics:
  1094 PDF objects out of 1200 (max. 8388607)
  953 compressed objects within 10 object streams
