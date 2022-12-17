@@ -359,15 +359,57 @@ In most networks, the most frequently used way of employing low-level features i
 
 
 %%%%%%%A Novel Transformer Based Semantic Segmentation Scheme for Fine-Resolution
+A novel semantic segmentation scheme of densely connected (DC-Swin) \cite{a-novel-transformer} proposed by combining Swin Transformer and a densely connected feature aggregation module (DCFAM). Swin Transformer is used as the encoder to extract the context information while DFCAM act as the decoder to restore the resolution and produce the segmentation map.
 
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=12.5cm, height=6.5cm]{images/dc-swin.png}
+\centering
+\caption{(a) Overall architecture of DC-Swin. (b) Pair of Swin Transformer blocks. (c) Downsample Connection. (d) Large Field Upsample Connection. (e) SSA. (f) SCA}
+\label{fig:dc}
+\end{figure}
+
+Referring to figure \ref{fig:dc}(a), the Swin Transformer split the input RGB image into nonoverlapping patches as "tokens" using a patch partition module. This tokens are then fed into the multistage feature transformation. In stage 1, a linear embedding layer is deployed to project features to an arbitrary dimension $C$. Next, a pair of Swin Transformer as shown in figure \ref{fig:dc}(b) are utilized to extract semantic features. In stages 2 to 4, the number of tokens is gradually reduced by patch merging layers along with the increasing depth of the network to produce a hierarchical representation. The outputs of the four stages are processed by a standard 1 $\time$ 1 convolution to generate four hierarchical Swin Transformer features. By adjusting the hyperparameters of tge Swin Transformer, they can construct backbones with different complexities.
+
+According to figure \ref{fig:dc} DFCAM connects the four hierarchical features with cross-scale connections and attention blocks to generate four aggregation features. 
+
+DC-Swin achieved 90.71\% in mean F1 -score, 91.63\% in overall accuracy, and 83.22\% in mIoU for the Vaihingen dataset, while it achieved 93.25\%, 92.00\%, and 87.56\% for the Potsdam dataset.
 
 %%%%%%%%%% BANET
+Bilateral Awareness Network (BANet) \cite{transformer-meet-conv} contains a dependency path and a texture path to fully capture the long-range relationships and details in high spatial resolution satellite images.
+
+Referring to figure \ref{fig:banet} the dependency path has a stem block and four transformer stages to extract long-range dependent features. Each stage consists of two efficient transformer blocks. Stages 2,3 and 4 employs patch embedding and the output are two long range dependent features.The texture path has four convolution layers to capture the textural feature, while each convolutional layer is equipped with batch normalization and ReLU activation function. The downsampling factor is set as 8 for the texture path to preserve spatial details.
 
 
-%%%%%%MANET
+Feature Aggregation Module is used to merge the outputs of both path. Finally, a segmentation head module is attached to convert the fused feature into a segmentation map.
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=12.5cm, height=6.5cm]{images/banet.jpg}
+\centering
+\caption{Architecture of Bilateral Awareness Network (BANet)}
+\label{fig:banet}
+\end{figure}
 
 
+%%%%%%unet-transformer
+Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet) \cite{unet-transformer}  uses a combination of Vision Transformer and U-Net for semantic segmentation of satellite images. As shown in figure \ref{fig:unetswin }nstead of using CNN for the encoder, they opted to use Enhanced Swin Transformer instead.  For the decoder, each step involves an up-sampling of the feature map followed by a 2 × 2 deconvolution, a concatenation with a feature map from the encoder, and two 3 × 3 convolutions. 
 
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=12.5cm, height=6.5cm]{images/unet-trasnformer.jpg}
+\centering
+\caption{Architecture of Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet)}
+\label{fig:unetswin}
+\end{figure}
+
+Enhanced Swin Transformer is a Swin Transformer  with enhanced multi-head self-attention (EMHSA) and deformable adaptive patch merging layer (DeforAPM). The EMHSA calculate  the attention score by fusing the low-level features and the global channel context. The enhanced attention can be formally defined as:
+
+\begin{equation}
+    Attention(Q,K,V) = Softmax(\fraction{att(QK^T)}{\sqrt{d_k}}+B)V
+\end{equation}
+
+AESwin-UNet achieved 66.61\% in overall accuracy and 53.96\% in mIoU for the LoveDA dataset.
 
 \section{Advantages of Vision Transformer for Semantic Segmentation of Satellite Images}
 \begin{enumerate}
@@ -396,15 +438,6 @@ In most networks, the most frequently used way of employing low-level features i
 \caption{The size records of vision transformer in recent years}
 \label{fig:scaling}
 \end{figure}
-\end{enumerate}
-
-\section{Potential Challenges}
-
-\cite{weakly-supervised-semantic} identified that a lot of semantic segmentation models doesn't work well under weak supervision. In this paper weak supervision is defined as using dataset that fulfil at least one of this criteria:
-\begin{enumerate}
-    \item \textit{Incomplete supervision} - The dataset is small and insufficient to train a good model.
-    \item \textit{Inexact supervision} - The labelling is not as exact as necessary which usually occurss in land cover labels with low resolution.
-    \item \textit{Inaccurate supervision} - The labels are wrong.
 \end{enumerate}
 
 
