@@ -6,7 +6,8 @@ A level-1 auxiliary file: chapter-1-intro.aux
 A level-1 auxiliary file: chapter-2-lit-review.aux
 A level-1 auxiliary file: chapter-3-theory.aux
 A level-1 auxiliary file: chapter-4-methodology.aux
-A level-1 auxiliary file: chapter-5-conclusion.aux
+A level-1 auxiliary file: chapter-5-implementation.aux
+A level-1 auxiliary file: chapter-6-conclusion.aux
 A level-1 auxiliary file: sample-appen-manual.aux
 A level-1 auxiliary file: sample-appen-try.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -21,45 +22,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 Warning--I didn't find a database entry for "lanet"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 41 entries,
+You've used 42 entries,
             6951 wiz_defined-function locations,
-            1537 strings with 21869 characters,
-and the built_in function-call counts, 97201 in all, are:
-= -- 11438
-> -- 1016
-< -- 4766
-+ -- 5190
-- -- 82
-* -- 6578
-:= -- 17373
-add.period$ -- 168
-call.type$ -- 41
-change.case$ -- 683
+            1545 strings with 22041 characters,
+and the built_in function-call counts, 99229 in all, are:
+= -- 11676
+> -- 1035
+< -- 4874
++ -- 5292
+- -- 84
+* -- 6714
+:= -- 17763
+add.period$ -- 172
+call.type$ -- 42
+change.case$ -- 702
 chr.to.int$ -- 0
-cite$ -- 82
-duplicate$ -- 3280
-empty$ -- 3743
-format.name$ -- 1979
-if$ -- 17876
+cite$ -- 84
+duplicate$ -- 3334
+empty$ -- 3821
+format.name$ -- 2011
+if$ -- 18249
 int.to.chr$ -- 0
-int.to.str$ -- 123
+int.to.str$ -- 126
 missing$ -- 0
-newline$ -- 1225
-num.names$ -- 334
-pop$ -- 1540
+newline$ -- 1251
+num.names$ -- 342
+pop$ -- 1566
 preamble$ -- 1
-purify$ -- 168
+purify$ -- 174
 quote$ -- 0
-skip$ -- 5833
+skip$ -- 5962
 stack$ -- 0
-substring$ -- 5672
-swap$ -- 1797
-text.length$ -- 124
+substring$ -- 5780
+swap$ -- 1828
+text.length$ -- 128
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3728
+type$ -- 3808
 warning$ -- 0
-while$ -- 713
+while$ -- 727
 width$ -- 0
-write$ -- 1647
+write$ -- 1682
 (There was 1 warning)

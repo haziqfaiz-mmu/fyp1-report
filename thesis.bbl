@@ -1,6 +1,34 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Bahdanau%
+, Cho%
+\BCBL {}\ \BBA {} Bengio%
+}{%
+Bahdanau%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+attention}
+\APACinsertmetastar {%
+attention}%
+\begin{APACrefauthors}%
+Bahdanau, D.%
+, Cho, K.%
+\BCBL {}\ \BBA {} Bengio, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{09}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Neural Machine Translation by Jointly Learning to Align
+  and Translate} {Neural machine translation by jointly learning to align and
+  translate}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ArXiv}{1409}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Blake%
 , Kohli%
 \BCBL {}\ \BBA {} Rother%

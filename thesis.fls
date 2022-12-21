@@ -1649,6 +1649,39 @@ INPUT ./images/Rosenblattperceptron.png
 INPUT images/Rosenblattperceptron.png
 INPUT ./images/Rosenblattperceptron.png
 INPUT ./images/Rosenblattperceptron.png
+INPUT ./images/encodeer-decoder.jpg
+INPUT ./images/encodeer-decoder.jpg
+INPUT images/encodeer-decoder.jpg
+INPUT ./images/encodeer-decoder.jpg
+INPUT ./images/encodeer-decoder.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT ./images/attention unit.png
+INPUT ./images/attention unit.png
+INPUT images/attention unit.png
+INPUT ./images/attention unit.png
+INPUT ./images/attention unit.png
+INPUT ./images/multi-head attention.png
+INPUT ./images/multi-head attention.png
+INPUT images/multi-head attention.png
+INPUT ./images/multi-head attention.png
+INPUT ./images/multi-head attention.png
+INPUT ./images/transformer_architecture.png
+INPUT ./images/transformer_architecture.png
+INPUT images/transformer_architecture.png
+INPUT ./images/transformer_architecture.png
+INPUT ./images/transformer_architecture.png
+INPUT ./images/sigmoid.jpg
+INPUT ./images/sigmoid.jpg
+INPUT images/sigmoid.jpg
+INPUT ./images/sigmoid.jpg
+INPUT ./images/sigmoid.jpg
+INPUT ./images/relu.jpeg
+INPUT ./images/relu.jpeg
+INPUT images/relu.jpeg
+INPUT ./images/relu.jpeg
+INPUT ./images/relu.jpeg
 INPUT ./images/vision transformer.png
 INPUT ./images/vision transformer.png
 INPUT images/vision transformer.png
@@ -1679,16 +1712,26 @@ INPUT ./chapter-4-methodology.tex
 INPUT chapter-4-methodology.tex
 INPUT ./chapter-4-methodology.tex
 INPUT chapter-4-methodology.tex
-INPUT ./chapter-5-conclusion.tex
-INPUT ./chapter-5-conclusion.tex
-INPUT ./chapter-5-conclusion.tex
-OUTPUT chapter-5-conclusion.aux
-INPUT ./chapter-5-conclusion.tex
-INPUT ./chapter-5-conclusion.tex
-INPUT ./chapter-5-conclusion.tex
-INPUT chapter-5-conclusion.tex
-INPUT ./chapter-5-conclusion.tex
-INPUT chapter-5-conclusion.tex
+INPUT ./chapter-5-implementation.tex
+INPUT ./chapter-5-implementation.tex
+INPUT ./chapter-5-implementation.tex
+OUTPUT chapter-5-implementation.aux
+INPUT ./chapter-5-implementation.tex
+INPUT ./chapter-5-implementation.tex
+INPUT ./chapter-5-implementation.tex
+INPUT chapter-5-implementation.tex
+INPUT ./chapter-5-implementation.tex
+INPUT chapter-5-implementation.tex
+INPUT ./chapter-6-conclusion.tex
+INPUT ./chapter-6-conclusion.tex
+INPUT ./chapter-6-conclusion.tex
+OUTPUT chapter-6-conclusion.aux
+INPUT ./chapter-6-conclusion.tex
+INPUT ./chapter-6-conclusion.tex
+INPUT ./chapter-6-conclusion.tex
+INPUT chapter-6-conclusion.tex
+INPUT ./chapter-6-conclusion.tex
+INPUT chapter-6-conclusion.tex
 INPUT ./sample-appen-manual.tex
 INPUT ./sample-appen-manual.tex
 INPUT ./sample-appen-manual.tex
@@ -1777,9 +1820,12 @@ INPUT chapter-3-theory.aux
 INPUT ./chapter-4-methodology.aux
 INPUT chapter-4-methodology.aux
 INPUT chapter-4-methodology.aux
-INPUT ./chapter-5-conclusion.aux
-INPUT chapter-5-conclusion.aux
-INPUT chapter-5-conclusion.aux
+INPUT ./chapter-5-implementation.aux
+INPUT chapter-5-implementation.aux
+INPUT chapter-5-implementation.aux
+INPUT ./chapter-6-conclusion.aux
+INPUT chapter-6-conclusion.aux
+INPUT chapter-6-conclusion.aux
 INPUT ./sample-appen-manual.aux
 INPUT sample-appen-manual.aux
 INPUT sample-appen-manual.aux

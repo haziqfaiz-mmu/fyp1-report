@@ -31,10 +31,17 @@
 \contentsline {figure}{\numberline {2.24}{\ignorespaces The size records of vision transformer in recent years}}{42}{figure.2.24}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{44}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ViT Architecture}}{48}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Swin Transformer V1 Architecture}}{48}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cyclic Shifted Windows in Swin Transformer}}{49}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Difference Between Swin V1 and Swin V2}}{49}{figure.3.5}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Encoder-Decoder Architecture}}{47}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Attention Mechanism Unit}}{50}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Multi-head Attention}}{51}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Transformer Architecture}}{52}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sigmoid Function}}{53}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces ReLU Function}}{54}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ViT Architecture}}{56}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Swin Transformer V1 Architecture}}{57}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Cyclic Shifted Windows in Swin Transformer}}{57}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Difference Between Swin V1 and Swin V2}}{58}{figure.3.11}%
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

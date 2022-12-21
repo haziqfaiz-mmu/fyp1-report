@@ -12,7 +12,7 @@
 \vspace *{-4pt}
 \contentsline {chapter}{\MakeUppercase {Preface}}{xiii}{chapter*.9}%
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {1}\MakeUppercase {Introduction, Background Story, Motivations}}{1}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}\MakeUppercase {INTRODUCTION}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background Introduction}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Introduction to Semantic Segmentation}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Introduction to Satellite Images}{3}{subsection.1.1.2}%
@@ -37,35 +37,40 @@
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {3}\MakeUppercase {THEORETICAL FRAMEWORK}}{43}{chapter.3}%
 \contentsline {section}{\numberline {3.1}A Brief History of Deep Learning}{43}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Theoretical Introduction to Deep Learning}{46}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Convolutional Neural Networks and Its Application in Semantic Segmentation of Satellite Images}{46}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.1 (a)}Activation Functions}{46}{subsubsection.3.2.1.1}%
+\contentsline {section}{\numberline {3.2}Convolutional Neural Networks and Its Application in Semantic Segmentation of Satellite Images}{46}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Introduction to Transformers}{46}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Encoder-Decoder Architecture}{46}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Sequence-To-Sequence}{46}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Attention Mechanism}{46}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Embedding and Positional Encoding}{46}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}sdsds}{46}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Transformers Architecture}{47}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Vision Transformer (ViT)}{47}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Swin Transformer}{47}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}SegFormer}{50}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}MaskFormer}{50}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Beit}{50}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}DeepLabV3}{50}{subsection.3.4.6}%
-\contentsline {section}{\numberline {3.5}Evaluation Metrics}{50}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Limitations}{50}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Weak Supervision}{50}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Inadequate Computing Resource}{50}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.3.3}Attention Mechanism}{47}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Queries, Keys and Values}{48}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Multi Head Attention}{50}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Activation Functions}{52}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Sigmoid Function}{52}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Rectified Linear Unit Function}{53}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Softmax Function}{54}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Backpropagation}{55}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Transformers Architecture}{55}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Vision Transformer (ViT)}{55}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Swin Transformer}{56}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}SegFormer}{59}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}MaskFormer}{59}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Beit}{59}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}DeepLabV3}{59}{subsection.3.6.6}%
+\contentsline {section}{\numberline {3.7}Evaluation Metrics}{59}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Potential Challenges and Limitations}{59}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Weak Supervision}{59}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Inadequate Computing Resource}{60}{subsection.3.8.2}%
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase {Dummy Chapter}}{51}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase {RESEARCH METHODOLOGY}}{61}{chapter.4}%
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {5}\MakeUppercase {Conclusion}}{52}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase {IMPLEMENTATION PLAN AND INITIAL RESULTS}}{62}{chapter.5}%
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{53}{appendix.A}%
+\contentsline {chapter}{\chapternumberline {6}\MakeUppercase {CONCLUSION}}{63}{chapter.6}%
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{54}{appendix.B}%
-\contentsline {chapter}{REFERENCES}{55}{appendix*.10}%
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{64}{appendix.A}%
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Notes}}{62}{appendix*.11}%
-\contentsline {chapter}{PUBLICATION LIST}{63}{appendix*.12}%
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{65}{appendix.B}%
+\contentsline {chapter}{REFERENCES}{66}{appendix*.10}%
+\vspace *{-4pt}
+\contentsline {chapter}{\MakeUppercase {Notes}}{73}{appendix*.11}%
+\contentsline {chapter}{PUBLICATION LIST}{74}{appendix*.12}%
