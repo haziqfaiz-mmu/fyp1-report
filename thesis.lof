@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces A Mask From Deep Globe Dataset}}{18}{figure.2.9}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Computing a histogram of oriented gradients for the first patch of an input image.}}{20}{figure.2.10}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Each circle represents the location and orientation of SIFT keypoints}}{21}{figure.2.11}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces U-Net Architecture}}{27}{figure.2.12}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces U-Net Architecture}}{26}{figure.2.12}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Attention U-Net Architecture}}{28}{figure.2.13}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Multi Attention U-Net Architecture}}{29}{figure.2.14}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces UNetFormer Architecture}}{31}{figure.2.15}%
@@ -28,7 +28,7 @@
 \contentsline {figure}{\numberline {2.21}{\ignorespaces (a) Overall architecture of DC-Swin. (b) Pair of Swin Transformer blocks. (c) Downsample Connection. (d) Large Field Upsample Connection. (e) SSA. (f) SCA}}{36}{figure.2.21}%
 \contentsline {figure}{\numberline {2.22}{\ignorespaces Architecture of Bilateral Awareness Network (BANet)}}{38}{figure.2.22}%
 \contentsline {figure}{\numberline {2.23}{\ignorespaces Architecture of Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet)}}{39}{figure.2.23}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces The size records of vision transformer in recent years}}{42}{figure.2.24}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces The size records of Vision Transformer in recent years}}{42}{figure.2.24}%
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{44}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Encoder-Decoder Architecture}}{47}{figure.3.2}%

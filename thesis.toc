@@ -33,6 +33,11 @@
 \contentsline {section}{\numberline {2.3}Limitations of Traditional Methods}{25}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Semantic Segmentation of Satellite Images Using Convolutional Neural Networks}{25}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Semantic Segmentation of Satellite Images Using Vision Transformers}{29}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}UNetFormer}{30}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}LANet}{33}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}DC-Swin}{36}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}BANet}{37}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}AESwin-UNet}{39}{subsection.2.5.5}%
 \contentsline {section}{\numberline {2.6}Advantages of Vision Transformer for Semantic Segmentation of Satellite Images}{40}{section.2.6}%
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {3}\MakeUppercase {THEORETICAL FRAMEWORK}}{43}{chapter.3}%
@@ -58,8 +63,6 @@
 \contentsline {subsection}{\numberline {3.6.6}DeepLabV3}{59}{subsection.3.6.6}%
 \contentsline {section}{\numberline {3.7}Evaluation Metrics}{59}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Potential Challenges and Limitations}{59}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Weak Supervision}{59}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Inadequate Computing Resource}{60}{subsection.3.8.2}%
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {4}\MakeUppercase {RESEARCH METHODOLOGY}}{61}{chapter.4}%
 \vspace *{-4pt}

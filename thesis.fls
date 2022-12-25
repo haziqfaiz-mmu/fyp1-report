@@ -1230,9 +1230,12 @@ INPUT chapter-3-theory.aux
 INPUT ./chapter-4-methodology.aux
 INPUT chapter-4-methodology.aux
 INPUT chapter-4-methodology.aux
-INPUT ./chapter-5-conclusion.aux
-INPUT chapter-5-conclusion.aux
-INPUT chapter-5-conclusion.aux
+INPUT ./chapter-5-implementation.aux
+INPUT chapter-5-implementation.aux
+INPUT chapter-5-implementation.aux
+INPUT ./chapter-6-conclusion.aux
+INPUT chapter-6-conclusion.aux
+INPUT chapter-6-conclusion.aux
 INPUT ./sample-appen-manual.aux
 INPUT sample-appen-manual.aux
 INPUT sample-appen-manual.aux

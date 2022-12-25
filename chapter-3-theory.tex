@@ -228,14 +228,18 @@ The first version of Swin Transformer \cite{swin-v1} presents a hierarchical fea
 \section{Evaluation Metrics}
 \section{Potential Challenges and Limitations}
 
-\subsection{Weak Supervision}
-\cite{weakly-supervised-semantic} identified that a lot of semantic segmentation models doesn't work well under weak supervision. In this paper weak supervision is defined as using dataset that fulfil at least one of this criteria:
+\begin{enumerate}
+    \item \textbf{Weak Supervision}
+        
+        \cite{weakly-supervised-semantic} identified that a lot of semantic segmentation models doesn't work well under weak supervision. In this paper weak supervision is defined as using dataset that fulfil at least one of this criteria:
 \begin{enumerate}
     \item \textit{Incomplete Supervision} - The dataset is small and insufficient to train a good model.
     \item \textit{Inexact supervision} - The labelling is not as exact as necessary which usually occurss in land cover labels with low resolution.
     \item \textit{Inaccurate supervision} - The labels are wrong.
 \end{enumerate}
+\item \textbf{Inadequate Computing Resource}
+    
+    Training a Vision Transformer model requires a lot of computation resource. Several papers took multiple days to train their model eventhough they are using multiple GPUs in parallel. 
 
-\subsection{Inadequate Computing Resource}
-Training a Vision Transformer model requires a lot of computation resource. Several papers took multiple days to train their model eventhough they are using multiple GPUs in parallel. 
 
+\end{enumerate}

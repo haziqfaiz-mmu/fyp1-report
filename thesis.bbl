@@ -155,6 +155,37 @@ Demir, I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ding%
+, Tang%
+\BCBL {}\ \BBA {} Bruzzone%
+}{%
+Ding%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+lanet}
+\APACinsertmetastar {%
+lanet}%
+\begin{APACrefauthors}%
+Ding, L.%
+, Tang, H.%
+\BCBL {}\ \BBA {} Bruzzone, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {LANet: Local Attention Embedding to Improve the Semantic
+  Segmentation of Remote Sensing Images} {Lanet: Local attention embedding to
+  improve the semantic segmentation of remote sensing images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{59}{1}{426-435}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TGRS.2020.2994150} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dosovitskiy%
 \ \protect \BOthers {.}}{%
 Dosovitskiy%
