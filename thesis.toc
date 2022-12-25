@@ -67,13 +67,14 @@
 \contentsline {chapter}{\chapternumberline {4}\MakeUppercase {RESEARCH METHODOLOGY}}{61}{chapter.4}%
 \vspace *{-4pt}
 \contentsline {chapter}{\chapternumberline {5}\MakeUppercase {IMPLEMENTATION PLAN AND INITIAL RESULTS}}{62}{chapter.5}%
+\contentsline {section}{\numberline {5.1}blablabla}{62}{section.5.1}%
 \vspace *{-4pt}
-\contentsline {chapter}{\chapternumberline {6}\MakeUppercase {CONCLUSION}}{63}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeUppercase {CONCLUSION}}{67}{chapter.6}%
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{64}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase {Manuals, Technical Specifications, Documentations, Example Scenarios}}{68}{appendix.A}%
 \vspace *{-4pt}
-\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{65}{appendix.B}%
-\contentsline {chapter}{REFERENCES}{66}{appendix*.10}%
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase {Appendix 2: What is appendix}}{69}{appendix.B}%
+\contentsline {chapter}{REFERENCES}{70}{appendix*.10}%
 \vspace *{-4pt}
-\contentsline {chapter}{\MakeUppercase {Notes}}{73}{appendix*.11}%
-\contentsline {chapter}{PUBLICATION LIST}{74}{appendix*.12}%
+\contentsline {chapter}{\MakeUppercase {Notes}}{77}{appendix*.11}%
+\contentsline {chapter}{PUBLICATION LIST}{78}{appendix*.12}%
