@@ -281,6 +281,47 @@ Transformers were introduced by \cite{attention-is-all-you-need} and since its i
 %%%%%benchmarking-scaling%%%%%%%
 Since its inception, there are lot of researches that aim to utilize Transformers for semantic segmentation of satellite images. 
 \cite{benchmarking-scaling} did a comparison of ViT, ResNet, MLPMixer and VGG trained using the BigEarthNet dataset for semantic segmentation and they concluded that ViT with a patch size of 6 delivered a slightly better performance than the rest while consuming less time to train. Interestingly, ViT with smaller patch size has lower F scores while requiring more time to train.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  ViT
+\subsection{Vision Transformer (ViT)}
+Vision Transformer from \cite{16x16} is the first group of researchers that experimented with Vision Transformer by applying a standard Transformer directly to images, with the fewest possible modifications. Their model is known as Vision Transformer (ViT) as it is the first Vision Transformer. They split an image into patches and provide the sequence of linear embeddings of these patches as an input to a Transformer. The image patches were treated the same way as word tokens do in an NLP application. This methods fails to capture the  translation equivariance and locality provide by the CNNs hence it is unsuitable for semantic segmentation task.
+
+Another issue with Vision Transformer is the attention mechanism itself is $O(n^2)$ because it is a dot product thus requiring it to consume significant computational time and memory to capture the global context, which in turn, reducing its efficiency, scaling potential and its potential for real-world applications. Figure \ref{fig:vit} shows the ViT architecture.
+
+\begin{figure}[ht]
+\includegraphics[width=13.5cm, height=9cm]{images/vision transformer.png}
+\centering
+\caption{ViT Architecture}
+\label{fig:vit}
+\end{figure}
+
+\subsection{Swin Transformer}
+The first version of Swin Transformer \cite{swin-v1} presents a hierarchical feature representation scheme that demonstrates impressive performances with linear computational complexity, which makes it suitable for semantic segmentation. The detailed mechanism of Transformers and Vision Transformers are discussed in chapter \ref{chap: 3}.
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=9.5cm, height=7cm]{images/swin-architecture.jpg}
+\centering
+\caption{Swin Transformer V1 Architecture}
+\label{fig:swin architecture}
+\end{figure}
+
+\begin{figure}[ht]
+\includegraphics[width=13.5cm, height=5.5cm]{images/swin-cyclic-shift.jpg}
+\centering
+\caption{Cyclic Shifted Windows in Swin Transformer}
+\label{fig:swin cyclic}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=13.5cm, height=9.5cm]{images/swin1-vs-swin2.jpg}
+\centering
+\caption{Difference Between Swin V1 and Swin V2}
+\label{fig:swin v1 vs v2}
+\end{figure}
+\FloatBarrier
+
 \subsection{UNetFormer}
 %%unetformer
 UNetFormer \cite{unetformer} proposes a UNet-like Transformer for semantic segmentation task trained using the UAVid, Vaihingen, Potsdam and LoveDA datasets.UNetFormer has the same encoder-decoder framework as the other U-Net variants. Referring to figure \ref{fig:unetformer} UNetFormer uses ResNet18 as its encoder and introduced global-local Transformer block (GLTB) that are used as its decoder. GLTB is crucial to capture both local and global information. GLTB is made up of a global–local attention, multilayer perceptron, two batch normalization layers and two additional operations, as shown in figure \ref{fig:gltb}.
@@ -346,8 +387,6 @@ where $h_p$ and $w_p$ is the horizontal and vertical size of the patch and $x_c$
 \label{fig:pam}
 \end{figure}
 \FloatBarrier
-
-
 
 In most networks, the most frequently used way of employing low-level features is to concatenate them with high-level features, which brings only slight improvement in performance. The authors proposed AEM to bridge the gap between high-level and low-level features without sacrificing the spatial details of the latter. Figure \ref{fig:aem} shows the implementation of AEM. First, they generate a high-level feature descriptor map, $z_c$ and low-level descriptor map , $x_c$ usinging the same formula in PAM. Then, an attention map, $a_c$ is generated using average pooling, 1 x 1 convolution and upsampling. Finally $a_c$ will be added to $x_c$ to generate an improved low-level descriptor.  
 \begin{figure}[ht]

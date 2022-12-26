@@ -46,7 +46,7 @@ Because Transformers has its origin in NLP that relies on sequential input, the 
 
 \subsection{Sequence-To-Sequence} \label{subsection: sequence}
 
-Suppose that we have an input sequence $x_1...x_t$, embedding mapping will transform the input sequence into vectors $\mathbf{x}_1...\mathbf{x}_t$. A unidirectional RNN at any time \textit{t} with a previous hidden state $\mathbf{h}_{t-1}$ and input $\mathbf{x}_t$ will generate a new hidden state:
+Sequence-to-sequence (seq2seq) is a type of deep learning approach where the input is in a sequence like a sentence and the context for each item is the output from the previous step. Seq2seq is the most famous model in Natural Language Processing. Suppose that we have an input sequence $x_1...x_t$, embedding mapping will transform the input sequence into vectors $\mathbf{x}_1...\mathbf{x}_t$. A unidirectional RNN at any time \textit{t} with a previous hidden state $\mathbf{h}_{t-1}$ and input $\mathbf{x}_t$ will generate a new hidden state:
 
 \begin{equation}
     \mathbf{h}_t = tanh(\mathbf{Wh}_{t-1} + \mathbf{Wx}_t)
@@ -74,7 +74,7 @@ Every input vector $\mathbf{x}_i$ is used in three different ways in the self at
 
 \end{enumerate}
 
-These roles are called the \textbf{query}, \textbf{key} and \textbf{value}. Three new weight matices are developed for each role namely they are $\mathbf{W_q}, \mathbf{W_k}, \mathbf{W_v}$. Since the average value of the dot product grows with the embedding dimension $d_k$, it helps to scale the dot product back a little to stop the inputs to the softmax function from growing too large.
+These roles are called the \textbf{query}, \textbf{key} and \textbf{value}. Three new weight matices are developed for each role namely they are $\mathbf{W_q}, \mathbf{W_k}, \mathbf{W_v}$ and these are the weights that are going to be learned by backpropagation which is going to be discussed in the next section. Since the average value of the dot product grows with the embedding dimension $d_k$, it helps to scale the dot product back a little to stop the inputs to the softmax function from growing too large.
   The attention mechanism can be formally described as:
 \begin{equation}
 \mathbf{q}_i = \mathbf{W}_q \mathbf{x}_i
@@ -86,16 +86,16 @@ These roles are called the \textbf{query}, \textbf{key} and \textbf{value}. Thre
     \mathbf{v}_i = \mathbf{W}_v \mathbf{x}_i 
 \end{equation}
 \begin{equation}
-    ATTENTION(q,k,v) = softmax(\frac{\mathbf{q}_i \mathbf{k}_j^T}{\sqrt{d_k}})\mathbf{v}_i
+    ATTENTION(\mathbf{q,k,v}) = softmax(\frac{\mathbf{q}_i \mathbf{k}_j^T}{\sqrt{d_k}})\mathbf{v}_i
 \end{equation}
 \begin{equation}
-    \mathbf{y}_i = \sum ATTENTION(q,k,v)\mathbf{x}_j    
+    \mathbf{y}_i = \sum ATTENTION(\mathbf{q,k,v})\mathbf{x}_j    
 \end{equation}
 
 The attention mechanism is shown in figure \ref{fig:attention-unit}
 
 \begin{figure}[ht]
-\includegraphics[width=5.5cm, height=7.5cm]{images/attention unit.png}
+\includegraphics[width=4.0cm, height=6.5cm]{images/attention unit.png}
 \centering
 \caption{Attention Mechanism Unit}
 \label{fig:attention-unit}
@@ -172,60 +172,38 @@ where $z_i$ is an element of the input vector and the denominator is the sum of 
 
 \section{Backpropagation}
 
-\section{Transformers Architecture}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  ViT
-\subsection{Vision Transformer (ViT)}
-Vision Transformer from \cite{16x16} is the first group of researchers that experimented with Vision Transformer by applying a standard Transformer directly to images, with the fewest possible modifications. Their model is known as Vision Transformer (ViT) as it is the first Vision Transformer. They split an image into patches and provide the sequence of linear embeddings of these patches as an input to a Transformer. The image patches were treated the same way as word tokens do in an NLP application. This methods fails to capture the  translation equivariance and locality provide by the CNNs hence it is unsuitable for semantic segmentation task.
+The goal of backpropagation is to compute the partial derivative $\frac{\partial C}{\partial w}$ which is the partial derivative of $C$ with respect to weights and $\frac{\partial C}{\partial b}$ which is the partial derivative of $C$ with respect to bias. The cost function $C$ can be written as:
+\begin{equation}
+    C(X,\theta) = \frac{1}{2n} \sum_x ||\hat{y}(x) - y(x)||^2 
+\end{equation}
 
-Another issue with Vision Transformer is the attention mechanism itself is $O(n^2)$ because it is a dot product thus requiring it to consume significant computational time and memory to capture the global context, which in turn, reducing its efficiency, scaling potential and its potential for real-world applications. Figure \ref{fig:vit} shows the ViT architecture.
+where $n$ is the total number of training examples; the sum is over individual training examples, $x$; $\hat{y}(x)$ is the corresponding desired output; and $y(x)}$ is the vector of activations output from the network when $x$ is input.
 
-\begin{figure}[ht]
-\includegraphics[width=13.5cm, height=9cm]{images/vision transformer.png}
-\centering
-\caption{ViT Architecture}
-\label{fig:vit}
-\end{figure}
+In this example $C$ is the Euclidean distance betwween $y(x)$ and $a^L(x)$ which is a very common choice when training a neural network.Backpropagation attempts to minimize $C$ with respect to the neural network's weights by calculating, for each weight $w_{ij}^k$, the value of $\frac{\partial C}{\partial w_{ij}^k}$. At each iteration, the weights and biases (collectively denoted as $\theta$) is updated according to the learning rate, $\alpha$ as follows:
+\begin{equation}
+    \theta^{t+1} = \theta^t - \alpha \frac{\partial C(X,\theta^t)}{\partial \theta}
+\end{equation}
+where $\theta^t$ is the weights and biases of the neural network at iteration $t$ in gradient descent.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Swin V1 and V2
-\subsection{Swin Transformer}
-The first version of Swin Transformer \cite{swin-v1} presents a hierarchical feature representation scheme that demonstrates impressive performances with linear computational complexity, which makes it suitable for semantic segmentation. The detailed mechanism of Transformers and Vision Transformers are discussed in chapter \ref{chap: 3}.
+Since $C$ can be decomposed into a sum over individual error terms for each individual input-output pair, the derivative can be calculated with respect to each input-output pair individually and then combined at the end (since the derivative of a sum of functions is the sum of the derivatives of each function):
+\begin{equation}
+    \frac{\partial C(X,\theta)}{\partial w_{ij}^k} = \frac{1}{N} \sum_x \frac{\partial}{\partial w_{ij}^k}(\frac{1}{2}(\hat{y}_d-y_d)^2) = \frac{1}{N} \sum_x \frac{\partial C_d}{\partial w_{ij}^k}
+\end{equation}
 
-\FloatBarrier
-\begin{figure}[ht]
-\includegraphics[width=9.5cm, height=7cm]{images/swin-architecture.jpg}
-\centering
-\caption{Swin Transformer V1 Architecture}
-\label{fig:swin architecture}
-\end{figure}
+The derivation of the backpropagation algorithm begins by applying the chain rule to the partial derivative of $C$. Lastly, the weights are updated as follows:
+\begin{equation}
+    \Delta w_{ij}^k = - \alpha \frac{\partial C(X,\theta)}{\partial w_{ij}^k}
+\end{equation}
 
-\begin{figure}[ht]
-\includegraphics[width=13.5cm, height=5.5cm]{images/swin-cyclic-shift.jpg}
-\centering
-\caption{Cyclic Shifted Windows in Swin Transformer}
-\label{fig:swin cyclic}
-\end{figure}
 
-\FloatBarrier
-\begin{figure}[ht]
-\includegraphics[width=13.5cm, height=9.5cm]{images/swin1-vs-swin2.jpg}
-\centering
-\caption{Difference Between Swin V1 and Swin V2}
-\label{fig:swin v1 vs v2}
-\end{figure}
-\FloatBarrier
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  SegFormer
-\subsection{SegFormer}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  MaskFormer
-\subsection{MaskFormer}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% Beit
-\subsection{Beit}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DeeepLabV3
-\subsection{DeepLabV3}
 \section{Evaluation Metrics}
+
+The most common evaluation metric used by semantic segmentation is the mean Intersection over Union (mIou). The mIoU is also known as the Jaccard Index or the Jaccard similarity coefficeint. The IoU for a single class is defined as:
+\begin{equation}
+    IoU = \frac{True Positives}{True Positives + False Positives + False Negatives}
+\end{equation}
+
+We get the mIoU by finding the mean of the IoU for each class.
 \section{Potential Challenges and Limitations}
 
 \begin{enumerate}

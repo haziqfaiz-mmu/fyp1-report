@@ -1624,6 +1624,26 @@ INPUT ./images/maunet.png
 INPUT images/maunet.png
 INPUT ./images/maunet.png
 INPUT ./images/maunet.png
+INPUT ./images/vision transformer.png
+INPUT ./images/vision transformer.png
+INPUT images/vision transformer.png
+INPUT ./images/vision transformer.png
+INPUT ./images/vision transformer.png
+INPUT ./images/swin-architecture.jpg
+INPUT ./images/swin-architecture.jpg
+INPUT images/swin-architecture.jpg
+INPUT ./images/swin-architecture.jpg
+INPUT ./images/swin-architecture.jpg
+INPUT ./images/swin-cyclic-shift.jpg
+INPUT ./images/swin-cyclic-shift.jpg
+INPUT images/swin-cyclic-shift.jpg
+INPUT ./images/swin-cyclic-shift.jpg
+INPUT ./images/swin-cyclic-shift.jpg
+INPUT ./images/swin1-vs-swin2.jpg
+INPUT ./images/swin1-vs-swin2.jpg
+INPUT images/swin1-vs-swin2.jpg
+INPUT ./images/swin1-vs-swin2.jpg
+INPUT ./images/swin1-vs-swin2.jpg
 INPUT ./images/unetformer.jpg
 INPUT ./images/unetformer.jpg
 INPUT images/unetformer.jpg
@@ -1726,26 +1746,6 @@ INPUT ./images/relu.jpeg
 INPUT images/relu.jpeg
 INPUT ./images/relu.jpeg
 INPUT ./images/relu.jpeg
-INPUT ./images/vision transformer.png
-INPUT ./images/vision transformer.png
-INPUT images/vision transformer.png
-INPUT ./images/vision transformer.png
-INPUT ./images/vision transformer.png
-INPUT ./images/swin-architecture.jpg
-INPUT ./images/swin-architecture.jpg
-INPUT images/swin-architecture.jpg
-INPUT ./images/swin-architecture.jpg
-INPUT ./images/swin-architecture.jpg
-INPUT ./images/swin-cyclic-shift.jpg
-INPUT ./images/swin-cyclic-shift.jpg
-INPUT images/swin-cyclic-shift.jpg
-INPUT ./images/swin-cyclic-shift.jpg
-INPUT ./images/swin-cyclic-shift.jpg
-INPUT ./images/swin1-vs-swin2.jpg
-INPUT ./images/swin1-vs-swin2.jpg
-INPUT images/swin1-vs-swin2.jpg
-INPUT ./images/swin1-vs-swin2.jpg
-INPUT ./images/swin1-vs-swin2.jpg
 INPUT ./chapter-4-methodology.tex
 INPUT ./chapter-4-methodology.tex
 INPUT ./chapter-4-methodology.tex
