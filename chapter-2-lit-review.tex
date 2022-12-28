@@ -284,7 +284,7 @@ Since its inception, there are lot of researches that aim to utilize Transformer
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%  ViT
 \subsection{Vision Transformer (ViT)}
-Vision Transformer from \cite{16x16} is the first group of researchers that experimented with Vision Transformer by applying a standard Transformer directly to images, with the fewest possible modifications. Their model is known as Vision Transformer (ViT) as it is the first Vision Transformer. They split an image into patches and provide the sequence of linear embeddings of these patches as an input to a Transformer. The image patches were treated the same way as word tokens do in an NLP application. This methods fails to capture the  translation equivariance and locality provide by the CNNs hence it is unsuitable for semantic segmentation task.
+Vision Transformer from \cite{16x16} is the first group of researchers that experimented with Vision Transformer by applying a standard Transformer directly to images, with the fewest possible modifications. Their model is known as Vision Transformer (ViT) as it is the first Vision Transformer. They split an image into patches, apply linear embeddings to transform the patches into vectors and provide the sequence of those linear embedding as an input to a Transformer. The image patches were treated the same way as word tokens do in an NLP application. This methods fails to capture the  translation equivariance and locality provide by the CNNs hence it is unsuitable for semantic segmentation task.
 
 Another issue with Vision Transformer is the attention mechanism itself is $O(n^2)$ because it is a dot product thus requiring it to consume significant computational time and memory to capture the global context, which in turn, reducing its efficiency, scaling potential and its potential for real-world applications. Figure \ref{fig:vit} shows the ViT architecture.
 
@@ -296,14 +296,44 @@ Another issue with Vision Transformer is the attention mechanism itself is $O(n^
 \end{figure}
 
 \subsection{Swin Transformer}
-The first version of Swin Transformer \cite{swin-v1} presents a hierarchical feature representation scheme that demonstrates impressive performances with linear computational complexity, which makes it suitable for semantic segmentation. The detailed mechanism of Transformers and Vision Transformers are discussed in chapter \ref{chap: 3}.
+The first version of Swin Transformer \cite{swin-v1} presents a hierarchical feature representation scheme that demonstrates impressive performances with linear computational complexity, which makes it suitable for semantic segmentation. Just like in ViT, Swin Tansformer will use patch embedding to the input image but the difference now is the patch size is 4x4x3 instead of 16x16x3. The biggest difference between ViT and Swin Transformer is ViT attention layers work on the entire image while Swin Transformer will firsst compute attention on local windows. Take an example in figure \ref{fig:swin-vs-vit}, the input image is 16x16 and Swin Transformer will first use 16 non-overlapping local windows to divide the image into 16 patches. As self-attention is computed at local window, they only handle the relationships between 16 image patches. At the next level, Swin Transformer merges neighboring patches to form 4 new local windows. Again, self-attention layers is computed within each local window. Therefore, those layers only deal with 16 feature patches hence maintaining the number of patches at every level. Eventually, one local window covers the entire image with 16 feature patches.
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=9.5cm, height=5.5cm]{images/swin vs vit.png}
+\centering
+\caption{The difference between Swin Transformer and ViT}
+\label{fig:swin-vs-vit}
+\end{figure}
+
+Swin Transformer is made up of 4 stages as shown in \ref{fig:swin architecture1}. The input image has a dimension of H x W x 3. Swin Transformer uses a patch size of 4x4 which will produce H/4 x W/4 number of patches, and each patch’s feature dimension is 48 (4 x 4 x 3). In stage 1, the linear layer projects the raw-valued features to an arbitrary dimension $C$.
+
+In stage 2, the patch merging layer concatenates the features of each group of 2 x 2 neighboring patches. Each patch’s feature dimension becomes 4C, on which it applies a linear layer, reducing the output dimension to 2C. So, we have H/8 x W/8 patches, each of which has 2C-dimensional features. The same processes are repeated in stages 3 and 4, reducing the size by 4 and increasing the feature dimension by 2.
 
 \FloatBarrier
 \begin{figure}[ht]
-\includegraphics[width=9.5cm, height=7cm]{images/swin-architecture.jpg}
+\includegraphics[width=11.5cm, height=4.5cm]{images/swin-transformer-4block.png}
 \centering
 \caption{Swin Transformer V1 Architecture}
-\label{fig:swin architecture}
+\label{fig:swin architecture1}
+\end{figure}
+
+The self-attention modeule in ViT has $O(n^2) $computational complexity to the number of tokens which makes it unsuitable forsemantic segmentation which require dense high-resolution classifications. Swin Transformer introduced a Shifted Window Multi-headed Self-Attention (W-MSA) to make the self-attetion linear to the number of tokens. The computational complexity of the original Multi-Headed Self-Attention is:
+\begin{equation}
+    \Omega (\mathbf{MSA}) = 4hwC^2 + 2(hw)^2C
+\end{equation}
+While tthe improved computational complexityof W-MSA is linear to the number of patches:
+\begin{equation}
+    \Omega (\mathbf{W-MSA}) = 4hwC^2 + 2M^2hwC
+\end{equation}
+
+Swin Transformer alternates between two partitioning configurations in consecutive Swin Transformer blocks. As shown figure \ref{fig: swin cyclic}, layer 1 uses regular partitioning while layer 2 uses a windowing configuration shifted by half of the window size. They introduces connections between neighboring windows while keeping the local computation within each non-overlapping window.
+
+The main issue with this approach is the number of local windows increased from 4 to 9. For this reason, Swin Transformer uses another mechanism called cyclic shifting. Cyclic shifting shift the image patches toward the top-left direction and then applies a masking mechanism to limit self-attention within adjacent patches. It also utilizes reverse cyclic shifting to cover the other areas. Cyclic shifting is shown in figure \ref{fig:swin cyclic}
+\begin{figure}[ht]
+\includegraphics[width=10.5cm, height=4.5cm]{images/swin-msa1.jpeg}
+\centering
+\caption{Shifted Window Multi-head Self-Attention}
+\label{fig:swin cyclic}
 \end{figure}
 
 \begin{figure}[ht]
@@ -313,6 +343,26 @@ The first version of Swin Transformer \cite{swin-v1} presents a hierarchical fea
 \label{fig:swin cyclic}
 \end{figure}
 
+SW-MSA successfully introduced connections between windows while masking prevents the attention computation from processing across the image boundary. Figure \ref{fig:2swins} show two consecutiveSwin Transformer blocks with each one having a different partitioning scheme.
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=6.5cm, height=7cm]{images/swin-architecture.jpg}
+\centering
+\caption{Two Successive Swin Transformer Blocks}
+\label{fig:2swins}
+\end{figure}
+
+The self-attention score using SW-MSA can be calculated as follows:
+\begin{equation}
+    Attention(Q,K,V) = softmax(\frac{QK^T}{\sqrt{d}+B})V
+\end{equation}
+
+Swin Transformer V2 \cite{swin-v2} was introsuced in 2021 and it is an improved version of Swin Transformer to increase scability, accuracy and stablity during training. As shown in figure \ref{fig:swin v1 vs v2}, the Layer Normalization block is moved from front to back of the residual unit and a new scaled cosine self-attention unit is used inplace of the old matrix multiplication based self-attention. The new self-attention score can be calculated as:
+\begin{equation}
+    Sim(\mathbf{q}_i,\mathbf{k}_j) = \frac{cos(\mathbf{q}_i,\mathbf{k}_j)}{\tau} + B_{ij}
+\end{equation}
+
+Where $B_{ij}$ is the relative position bias between pixel i and j; $\tau$ is a learnable scalar, non-shared across heads and layers.$\tau$ is set larger than 0.01. These approaches make the model insensitive to the magnitude (largeness) of activations.
 \FloatBarrier
 \begin{figure}[ht]
 \includegraphics[width=13.5cm, height=9.5cm]{images/swin1-vs-swin2.jpg}
@@ -412,7 +462,34 @@ A novel semantic segmentation scheme of densely connected (DC-Swin) \cite{a-nove
 
 Referring to figure \ref{fig:dc}(a), the Swin Transformer split the input RGB image into nonoverlapping patches as "tokens" using a patch partition module. This tokens are then fed into the multistage feature transformation. In stage 1, a linear embedding layer is deployed to project features to an arbitrary dimension $C$. Next, a pair of Swin Transformer as shown in figure \ref{fig:dc}(b) are utilized to extract semantic features. In stages 2 to 4, the number of tokens is gradually reduced by patch merging layers along with the increasing depth of the network to produce a hierarchical representation. The outputs of the four stages are processed by a standard 1 $\time$ 1 convolution to generate four hierarchical Swin Transformer features. By adjusting the hyperparameters of tge Swin Transformer, they can construct backbones with different complexities.
 
-According to figure \ref{fig:dc} DFCAM connects the four hierarchical features with cross-scale connections and attention blocks to generate four aggregation features. 
+DFCAM has two important modules namely the Shared Spatial Attention (SSA) and a Shared Channel Attention (SCA) to enhance the spatial-wise and channel-wise relationship. Then, multi-level features are further integrated using the Downsample Connection and the Largefield Upsample Connection for improving m lti-scale. According to figure \ref{fig:dc} DFCAM connects the four hierarchical features with cross-scale connections and attention blocks to generate four aggregation features: AF1, AF2, AF3, and AF4.  
+
+The Downsample connection which is the green line in figure \ref{fig:dc} connects the low-level and high-level transformer features for fusion and it can be defined as follow:
+\begin{equation}
+    D^i_j(\mathbf{X}) = f_\sigma(f_\delta(\mathbf{X}) + f_\mu(f_\theta(\mathbf{X})))
+\end{equation}
+
+Where $\mathbf{X}$ is the input vector; $f_\sigma$ is a ReLU activation function; $f_\delta$ and $f_mu$ are a 3x3 convolution layer with a stride of 2; $f_\theta$ is a 3x3 convolution layer with astride of 1 with each convolution layer involves a batch normalization operation; $i$ and $j$ are the number of the input channels and output channels.
+
+The red line is the Large field Upsample Connection. It is used to capture multi-scale
+context effectively and can be mathematically expressed as:
+\begin{equation}
+    LU^n_m(\mathbf{X}) = f^{12}_\varphi(f_\sigma(f^6_\varphi(\mathbf{X})))
+\end{equation}
+
+Where $f^{12}_\varphi$ is a composite function that contains a standard 1x1 convolution, a dilated convolution with a dilated rate of 12, and a standard transpose convolution; $f^{6}_\varphidilated$ is similar but with a dilated rate of 6; $m $and $n$ are the number of the input channel and output channel.
+
+SSA is used to model the long range dependencies and it is defined as: jangan fail
+\begin{equation}
+    SSA(\mathbf{X}) = \frac{\sum_n V(\mathbf{X}_{c,n})+\frac{Q(\mathbf{X})}{|||Q(\mathbf{X})||_2} ((\frac{K(\mathbf{X})}{||K(\mathbf{X}))||_2})^T V(\mathbf{X})}
+    {N + \frac{Q(\mathbf{X})}{|||Q(\mathbf{X})||_2} \sum_n(\frac{K(\mathbf{X})}{||K(\mathbf{X}))||_2})^T }
+\end{equation}
+
+SCA is used to extract the long-range dependencies between the channel dimensions and can be defined as:
+\begin{equation}
+    SCA(\mathbf{X}) = \frac{ R(\mathbf{X}_{c,n})+(R(\mathbf{X}_{c,n}))\frac{R(\mathbf{X})}{||R(\mathbf{X}))||_2})^T \frac{R(\mathbf{X})}{||R(\mathbf{X}))||_2} }
+    {N + \frac{R(\mathbf{X})}{|||R(\mathbf{X})||_2} \sum_c(\frac{R(\mathbf{X})}{||R(\mathbf{X}))||_2})^T }
+\end{equation}
 
 DC-Swin achieved 90.71\% in mean F1 -score, 91.63\% in overall accuracy, and 83.22\% in mIoU for the Vaihingen dataset, while it achieved 93.25\%, 92.00\%, and 87.56\% for the Potsdam dataset.
 

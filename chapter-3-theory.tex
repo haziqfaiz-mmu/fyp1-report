@@ -105,7 +105,7 @@ The attention mechanism is shown in figure \ref{fig:attention-unit}
 
 \subsection{Multi Head Attention}
 
-With the introduction of the softmax function in the previous section, we limit the attention value to either 0 or 1 when in reality attention can be anywhere in between. This is a compicating consequence of using the softmax function. The easiest solution is to have multiple attention heads running at once. The multi-attention head is shown in figure \ref{fig:multi-head}.
+With the introduction of the softmax function in the previous section, we limit the attention value to either 0 or 1 when in reality attention can be anywhere in between. This is a negative consequence of using the softmax function. The easiest solution is to have multiple attention heads running at once. The multi-attention head is shown in figure \ref{fig:multi-head}.
 
 \begin{figure}[ht]
 \includegraphics[width=5.5cm, height=7.5cm]{images/multi-head attention.png}
@@ -115,7 +115,7 @@ With the introduction of the softmax function in the previous section, we limit 
 \end{figure}
 \FloatBarrier
 
-Multi-attention head can be thought of as multiple copies of the self-attention mechanism running in parallel, each with their own key, value and query values. However, generating k, v and q for each head would be computationally expensive. We can avoid this problem by rescaling the weight matrix by dividing it with the square root of the number of heads and concatenating the v,k and q matrix as shown in \ref{attention-is-all-you-need}. The entire Transformer architecture is shown in figure \ref{fig:transformer-architecture}
+Multi-attention head can be thought of as multiple copies of the self-attention mechanism running in parallel, each with their own key, value and query values. However, generating $\mathbf{K}$, $/mathbf{Q}$ and $\mathbf{V}$ for each head would be computationally expensive. We can avoid this problem by rescaling the weight matrix by dividing it with the square root of the number of heads and concatenating the $\mathbf{K}$, $/mathbf{Q}$ and $\mathbf{V}$ matrix as shown in \ref{attention-is-all-you-need}. The entire Transformer architecture with multi-head attention head is shown in figure \ref{fig:transformer-architecture}
 
 \begin{figure}[ht]
 \includegraphics[width=6.5cm, height=9.5cm]{images/transformer_architecture.png}

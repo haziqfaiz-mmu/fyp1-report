@@ -1629,16 +1629,32 @@ INPUT ./images/vision transformer.png
 INPUT images/vision transformer.png
 INPUT ./images/vision transformer.png
 INPUT ./images/vision transformer.png
-INPUT ./images/swin-architecture.jpg
-INPUT ./images/swin-architecture.jpg
-INPUT images/swin-architecture.jpg
-INPUT ./images/swin-architecture.jpg
-INPUT ./images/swin-architecture.jpg
+INPUT ./images/swin vs vit.png
+INPUT ./images/swin vs vit.png
+INPUT images/swin vs vit.png
+INPUT ./images/swin vs vit.png
+INPUT ./images/swin vs vit.png
+INPUT ./images/swin-transformer-4block.png
+INPUT ./images/swin-transformer-4block.png
+INPUT images/swin-transformer-4block.png
+INPUT ./images/swin-transformer-4block.png
+INPUT ./images/swin-transformer-4block.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT ./images/swin-msa1.jpeg
+INPUT ./images/swin-msa1.jpeg
+INPUT images/swin-msa1.jpeg
+INPUT ./images/swin-msa1.jpeg
+INPUT ./images/swin-msa1.jpeg
 INPUT ./images/swin-cyclic-shift.jpg
 INPUT ./images/swin-cyclic-shift.jpg
 INPUT images/swin-cyclic-shift.jpg
 INPUT ./images/swin-cyclic-shift.jpg
 INPUT ./images/swin-cyclic-shift.jpg
+INPUT ./images/swin-architecture.jpg
+INPUT ./images/swin-architecture.jpg
+INPUT images/swin-architecture.jpg
+INPUT ./images/swin-architecture.jpg
+INPUT ./images/swin-architecture.jpg
 INPUT ./images/swin1-vs-swin2.jpg
 INPUT ./images/swin1-vs-swin2.jpg
 INPUT images/swin1-vs-swin2.jpg
@@ -1683,6 +1699,8 @@ INPUT ./images/dc-swin.png
 INPUT images/dc-swin.png
 INPUT ./images/dc-swin.png
 INPUT ./images/dc-swin.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./images/banet.jpg
 INPUT ./images/banet.jpg
 INPUT images/banet.jpg
@@ -1718,9 +1736,6 @@ INPUT ./images/encodeer-decoder.jpg
 INPUT images/encodeer-decoder.jpg
 INPUT ./images/encodeer-decoder.jpg
 INPUT ./images/encodeer-decoder.jpg
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./images/attention unit.png
 INPUT ./images/attention unit.png
 INPUT images/attention unit.png
