@@ -27,23 +27,24 @@
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Two Successive Swin Transformer Blocks}}{35}{figure.2.20}%
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Difference Between Swin V1 and Swin V2}}{37}{figure.2.21}%
 \contentsline {figure}{\numberline {2.22}{\ignorespaces UNetFormer Architecture}}{38}{figure.2.22}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Global-Local Transformer Block in UNetFormer}}{38}{figure.2.23}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Feature refinement Head of UNetFormer}}{40}{figure.2.24}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces LANet Architecture}}{41}{figure.2.25}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Patch Attention Module in LANet}}{42}{figure.2.26}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Attention Embedding Module in LANet}}{43}{figure.2.27}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces (a) Overall architecture of DC-Swin. (b) Pair of Swin Transformer blocks. (c) Downsample Connection. (d) Large Field Upsample Connection. (e) SSA. (f) SCA}}{43}{figure.2.28}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Architecture of Bilateral Awareness Network (BANet)}}{47}{figure.2.29}%
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Architecture of Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet)}}{48}{figure.2.30}%
-\contentsline {figure}{\numberline {2.31}{\ignorespaces The size records of Vision Transformer in recent years}}{51}{figure.2.31}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Illustration of (a) the standard Transformer block and (b) the Transformer block with GLTB}}{38}{figure.2.23}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Cross-shaped Window Context Interaction in UNetFormer}}{40}{figure.2.24}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Feature refinement Head of UNetFormer}}{42}{figure.2.25}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces LANet Architecture}}{44}{figure.2.26}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Patch Attention Module in LANet}}{45}{figure.2.27}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Attention Embedding Module in LANet}}{46}{figure.2.28}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces (a) Overall architecture of DC-Swin. (b) Pair of Swin Transformer blocks. (c) Downsample Connection. (d) Large Field Upsample Connection. (e) SSA. (f) SCA}}{46}{figure.2.29}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Architecture of Bilateral Awareness Network (BANet)}}{51}{figure.2.30}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Architecture of Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet)}}{52}{figure.2.31}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces The size records of Vision Transformer in recent years}}{55}{figure.2.32}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{53}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Encoder-Decoder Architecture}}{56}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Attention Mechanism Unit}}{59}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Multi-head Attention}}{60}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Transformer Architecture}}{61}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sigmoid Function}}{62}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces ReLU Function}}{63}{figure.3.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{57}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Encoder-Decoder Architecture}}{60}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Attention Mechanism Unit}}{63}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Multi-head Attention}}{64}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Transformer Architecture}}{65}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sigmoid Function}}{66}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces ReLU Function}}{67}{figure.3.7}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

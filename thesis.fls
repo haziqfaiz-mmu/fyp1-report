@@ -1665,11 +1665,16 @@ INPUT ./images/unetformer.jpg
 INPUT images/unetformer.jpg
 INPUT ./images/unetformer.jpg
 INPUT ./images/unetformer.jpg
-INPUT ./images/gltb.png
-INPUT ./images/gltb.png
-INPUT images/gltb.png
-INPUT ./images/gltb.png
-INPUT ./images/gltb.png
+INPUT ./images/gltb.jpg
+INPUT ./images/gltb.jpg
+INPUT images/gltb.jpg
+INPUT ./images/gltb.jpg
+INPUT ./images/gltb.jpg
+INPUT ./images/unetformer besar.jpg
+INPUT ./images/unetformer besar.jpg
+INPUT images/unetformer besar.jpg
+INPUT ./images/unetformer besar.jpg
+INPUT ./images/unetformer besar.jpg
 INPUT ./images/frh.jpg
 INPUT ./images/frh.jpg
 INPUT images/frh.jpg
