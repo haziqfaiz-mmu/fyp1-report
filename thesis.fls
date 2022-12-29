@@ -1755,6 +1755,16 @@ INPUT ./images/banet.jpg
 INPUT images/banet.jpg
 INPUT ./images/banet.jpg
 INPUT ./images/banet.jpg
+INPUT ./images/etb.png
+INPUT ./images/etb.png
+INPUT images/etb.png
+INPUT ./images/etb.png
+INPUT ./images/etb.png
+INPUT ./images/fam.jpg
+INPUT ./images/fam.jpg
+INPUT images/fam.jpg
+INPUT ./images/fam.jpg
+INPUT ./images/fam.jpg
 INPUT ./images/unet-trasnformer.jpg
 INPUT ./images/unet-trasnformer.jpg
 INPUT images/unet-trasnformer.jpg

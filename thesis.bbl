@@ -1366,6 +1366,37 @@ Yuan, Q.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Zhang%
+\ \BBA {} bin Yang%
+}{%
+Zhang%
+\ \BBA {} bin Yang%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+restlite}
+\APACinsertmetastar {%
+restlite}%
+\begin{APACrefauthors}%
+Zhang, Q.%
+\BCBT {}\ \BBA {} bin Yang, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ResT: An Efficient Transformer for Visual Recognition}
+  {Rest: An efficient transformer for visual recognition}.{\BBCQ}
+\newblock
+\BIn{} A.~Beygelzimer, Y.~Dauphin, P.~Liang\BCBL {}\ \BBA {} J\BPBI W.~Vaughan\
+  (\BEDS), \APACrefbtitle {Advances in Neural Information Processing Systems.}
+  {Advances in neural information processing systems.}
+\newblock
+\begin{APACrefURL} \url{https://openreview.net/forum?id=6Ab68Ip4Mu}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Zhao%
 , Shi%
 , Qi%

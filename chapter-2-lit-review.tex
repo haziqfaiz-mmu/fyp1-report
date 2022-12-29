@@ -535,12 +535,7 @@ Each of the aggregation features can be mathematically expressed as follows:
 where $U$ is a bilinear interpolation upsample operation with a scale factor of 2; $\mathbf{ST_1}, \mathbf{ST_2}, \mathbf{ST_3} and \mathbf{ST_4}$ are the Swin Transformer features from its respective block.
 %%%%%%%%%% BANET
 \subsection{BANet}
-Bilateral Awareness Network (BANet) \cite{transformer-meet-conv} contains a dependency path and a texture path to fully capture the long-range relationships and details in high spatial resolution satellite images.
-
-Referring to figure \ref{fig:banet} the dependency path has a stem block and four transformer stages to extract long-range dependent features. Each stage consists of two efficient transformer blocks. Stages 2,3 and 4 employs patch embedding and the output are two long range dependent features.The texture path has four convolution layers to capture the textural feature, while each convolutional layer is equipped with batch normalization and ReLU activation function. The downsampling factor is set as 8 for the texture path to preserve spatial details.
-
-
-Feature Aggregation Module is used to merge the outputs of both path. Finally, a segmentation head module is attached to convert the fused feature into a segmentation map.
+The architecture of Bilateral Awareness Network (BANet) is shown in figure \ref{banet} and it is madeup of two paths: the dependency path and the texture path. The texture path is designed to extract textural feature and the dependency path is for capturing long range dependencies.
 
 \FloatBarrier
 \begin{figure}[ht]
@@ -550,6 +545,42 @@ Feature Aggregation Module is used to merge the outputs of both path. Finally, a
 \label{fig:banet}
 \end{figure}
 
+The dependency path is made up of a stem block and four Transformer stages to extract where each stage consists of two efficient transformer blocks (ETB). Stage 2,3 and 4 has a patch embedding (PE) operation. The dependency pathwill generate two long range dependent features namely the LDF3 and LDF4. The ETB is made up of ResT-Lite \cite{restlite} pretrained on ImageNet. ETB as illustrated in figure \ref{fig:etb} uses efficient multihead self-attention (EMSA) instead of the usual multi-headed self attention.
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=4.5cm, height=7.5cm]{images/etb.png}
+\centering
+\caption{Efficient Transformer Block}
+\label{fig:etb}
+\end{figure}
+
+The self-attention score from EMSA can be calculated as follows:
+\begin{equation}
+    EMSA(\mathbf{Q,K,V}) = LP(IN(softmax(conv(\frac{\mathbf{QK}^T}{\sqrt{m}}))).\mathbf{V})
+\end{equation}
+where IN is the instance normalization function and LP stands for linear projection.
+
+The texture path has four convolution layers and each convolutional layer is equipped with batch normalization and ReLU activation function. The downsampling factor is set to 8. The output for the texture path can be expressed as:
+\begin{equation}
+    TF(\mathbf{X}) = T_4(T_3(T_2(T_1(\mathbf{X}))))
+\end{equation}
+where each T represents a combined function consisting of a convolutional layer, a batch
+normalization operation, and a ReLU activation function. The convolutional layer in $T_1$ has a
+kernel size of 7 and a stride of 2, which expands the channel dimension from 3 to 64. For
+$T_2$ and $T_3$, the kernel size and stride are 3 and 2, respectively. The channel dimension is
+kept as 64. Lastly for $T_4$, the convolutional layer is a standard 1x1 convolution with a stride of 1, expanding the channel dimension from 64 to 128. Thus, the output textural feature is
+downscaled 8 times and has a channel dimension of 128.
+
+The last module in BANet is the Feature Aggregation Module (FAM) and it is designed to leverage the benefits of the dependent features and texture features for powerful feature representation. FAM is illustrated in figure \ref{fig:fam}. The input features for the FAM include the LDF3, LDF4 and TF. To fuse those features, they first employ an attentional embedding module (AEM) to merge LDF3 and LDF4. Then, the merged feature is upsampled to concatenate with the TF to produce the aggregated feature. Finally, the linear attention module is deployed to reduce the fitting residual of the aggregated feature.
+
+\FloatBarrier
+\begin{figure}[ht]
+\includegraphics[width=7.5cm, height=5.5cm]{images/fam.jpg}
+\centering
+\caption{Feature Aggregation Module}
+\label{fig:fam}
+\end{figure}
 
 %%%%%%unet-transformer
 \subsection{AESwin-UNet}
@@ -557,7 +588,7 @@ Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet) \cite{unet-transform
 
 \FloatBarrier
 \begin{figure}[ht]
-\includegraphics[width=12.5cm, height=6.5cm]{images/unet-trasnformer.jpg}
+\includegraphics[width=12.5cm, height=8.5cm]{images/unet-trasnformer.jpg}
 \centering
 \caption{Architecture of Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet)}
 \label{fig:unetswin}
@@ -569,7 +600,7 @@ Enhanced Swin Transformer is a Swin Transformer  with enhanced multi-head self-a
     Attention(Q,K,V) = Softmax(\fraction{att(QK^T)}{\sqrt{d_k}}+B)V
 \end{equation}
 
-\subsection{Summary}
+\subsection{Summary of Literature Review}
 
 The three tables below contain the F1-score, mIou score and accuracy score of each semantic segmentation model reviewed.
 
