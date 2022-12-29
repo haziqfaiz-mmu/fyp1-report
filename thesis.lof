@@ -36,15 +36,15 @@
 \contentsline {figure}{\numberline {2.29}{\ignorespaces (a) Overall architecture of DC-Swin. (b) Pair of Swin Transformer blocks. (c) Downsample Connection. (d) Large Field Upsample Connection. (e) SSA. (f) SCA}}{46}{figure.2.29}%
 \contentsline {figure}{\numberline {2.30}{\ignorespaces Architecture of Bilateral Awareness Network (BANet)}}{51}{figure.2.30}%
 \contentsline {figure}{\numberline {2.31}{\ignorespaces Architecture of Adaptive Enhanced Swin Transformer with U-Net (AESwin-UNet)}}{52}{figure.2.31}%
-\contentsline {figure}{\numberline {2.32}{\ignorespaces The size records of Vision Transformer in recent years}}{55}{figure.2.32}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces The size records of Vision Transformer in recent years}}{56}{figure.2.32}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{57}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Encoder-Decoder Architecture}}{60}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Attention Mechanism Unit}}{63}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Multi-head Attention}}{64}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Transformer Architecture}}{65}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sigmoid Function}}{66}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces ReLU Function}}{67}{figure.3.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rosenblatt Perceptron}}{58}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Encoder-Decoder Architecture}}{61}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Attention Mechanism Unit}}{64}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Multi-head Attention}}{65}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Transformer Architecture}}{66}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sigmoid Function}}{67}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces ReLU Function}}{68}{figure.3.7}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

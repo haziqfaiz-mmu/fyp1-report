@@ -204,6 +204,25 @@ The most common evaluation metric used by semantic segmentation is the mean Inte
 \end{equation}
 
 We get the mIoU by finding the mean of the IoU for all of the classes.
+
+Accuracy is the ratio of correct predictions and can be calculated as:
+\begin{equation}
+     Accuracy = \frac{True Positives + True Negatives}{True Positives + True Negatives + False Positives + False Negatives}
+ \end{equation}
+
+ F1-score gives the accuracy of the model by combining precision and recall and it is widely preferred for imbalanced dataset. Precision, recall and F1-score can be calculated as:
+ \begin{equation}
+     Precision = \frac{True Positive}{True Positive + False Positive}
+ \end{equation}
+ \begin{equation}
+     Recall = \frac{True Positive}{True Positive + False Negative}
+ \end{equation}
+\begin{equation}
+     F1 = \frac{2 \times Precision \times Recall}{Precision + Recall}
+ \end{equation}
+
+
+
 \section{Potential Challenges and Limitations}
 
 \begin{enumerate}
