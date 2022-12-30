@@ -4,9 +4,9 @@
 
 The last few years have seen a massive surge in research regarding deep learning applications in computer vision with the most common one being object detection, where a network accept an image as an input and output either a single or multi class label. Typically, the position of detected objects are defined by rectangular coordinates that are represented by bounding boxes. However, in a lot of image processing task, such as in satellite images analysis the target output should include more accurate localization. The bounding box may have more than one objects inside it. To increase its localization, instead of assigning a set of labels to an image, semantic segmentation would label each pixel independently. After each pixel is labelled, a new image, called the mask  will be produced with every pixels being coloured according to its label.
 
-The emergence of the term “semantic segmentation” can be traced back to the 1970s \cite{YU201882}. At that time, this terminology was equivalent to non-semantic image segmentation but emphasized that the segmented regions must contain a "semantic meaning". Semantic segmentation algorithms learn information about the classes that each pixel belongs to before segmenting an image.they On the other hand, non-semantic segmentation algorithms try to detect consistent regions or region boundaries. Non-semantic segmentation can be solved using many unsupervised algorithms. 
+The emergence of the term "semantic segmentation" can be traced back to the 1970s \cite{YU201882}. At that time, this terminology was equivalent to non-semantic image segmentation but emphasized that the segmented regions must contain a "semantic meaning" hence where the semantic part of the word comes from. Semantic segmentation algorithms calssify each pixel into a class. On the other hand, non-semantic segmentation algorithms try to detect consistent regions or region boundaries and it can be solved using many unsupervised algorithms. 
 
-In the 1990s, “object segmentation and recognition”  distinguished semantic objects of all classes from background and can be viewed as a two-class image segmentation problem. As the complete partition of foreground objects from the background is very challenging, a relaxed two-class image segmentation problem: the sliding window object detection, was proposed to partition objects with bounding boxes. However, two-class image segmentation cannot tell what these segmented objects are. As a result, the generic sense of object detection was gradually extended to multi-class image labeling, which is the present definition of semantic segmentation, to tell both where and what the objects in the scene.
+In the 1990s, “object segmentation and recognition” is a two-class image segmentation problem which is to separate foregrounf objects from background. As the task is quite challenging, a relaxed two-class image segmentation problem: the sliding window object detection, was proposed to partition objects with bounding boxes. However, two-class image segmentation cannot tell what these segmented objects are. As a result, the generic sense of object detection was gradually extended to multi-class image labeling, which is the present definition of semantic segmentation, to tell both where and what the objects in the scene.
 
 \begin{figure}[ht]
 \includegraphics[width=12cm, height=6cm]{images/semantic segmentation example.jpg}
@@ -78,15 +78,17 @@ Lastly, temporal resolution refers to the time period between capturing two cons
 
 \begin{enumerate}
     \item All of the datasets studied suffer from class imbalanced meaning that the number of classes in the samples are not equally distributed. This is a very common problem in semantic segmentation task.
-    \item In the majority of the papers reviewed, semantic segmentation models are not trained using High Spatial Resolution (HSR) satellite images that are balanced.
+    \item The self-attention mechanism in Vision Transformers is $0(n^2)$ and this makes it unsuitable for semantic segmentation of large images such as satelllite images.
+    \item All of semantic segmentation models proposed before 2021 use CNN as Vision Transformer is a new development.  
+
 \end{enumerate}
 
 
 \section{Project Objectives}
 \begin{enumerate}
     \item Identify suitable datasets of satellite images that will be used for training and validation. Multiple datasets will be evaluated and a new dataset would be constructed if necessary.
-    \item Design and train a transformer model to perform semantic segmentation using chosen dataset.
-    \item Identify appropriate evaluation metrics and use that metrics to evaluate the performance of our model so that we can provide benchmark for future experiments.
+    \item Design and train a semantic segmentation model with a Transformer backbone to perform using chosen dataset.
+    \item Identify self-attention models that are linear to be used in the model.
 \end{enumerate}
 \section{Project Scope}
 
