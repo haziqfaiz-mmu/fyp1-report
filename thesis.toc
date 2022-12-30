@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {1.2}Introduction to Satellite Images}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Applications of Semantic Segmentation of Satellite Images}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Problem Statement}{7}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Project Objectives}{7}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Project Objectives}{8}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Project Scope}{8}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Chapter Organization}{8}{section.1.7}%
 \vspace *{-4pt}
