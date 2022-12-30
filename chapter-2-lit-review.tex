@@ -187,48 +187,48 @@ In SVM the training data is represented as $(x_i,y_i)$ where $x_i$ is the featur
 
 Assuming that the data is linearly separable, SVM is a task of solving the optimal margin classifier:
 
-\begin{equation*}
+\begin{equation}
     min_{w,b} \quad \frac{1}{2}||w||^2 \\
-\end{equation*}
+\end{equation}
 
-\begin{equation*}
+\begin{equation}
     s.t. \quad y^{i}(w^T x^i +b)\geqslant 1, i \in {1...m}
-\end{equation*}
+\end{equation}
 
 \vspace{0.1cm}
 
 \noindent $w$ is the linear combination of the training data $x$:
 
-\begin{equation*}
+\begin{equation}
     w = \sum_{i=1}^m \alpha_i y_i x_i
-\end{equation*}
+\end{equation}
 
 \noindent Where $\alpha$ is the Lagrange multiplier. Not every dataset is linearly separable thus this problem can be solved by transforming the feature vectors $x$ into a higher dimension using a non-linear mapping $/psi$. Thus instead of learning using $x$, we may learn using a higher-dimensional features $\psi(x)$, this method is called the \textit{kernel trick}. Specifically, given a feature mapping $\psi$, we define the corresponding kernel to be:    
 
-\begin{equation*}
+\begin{equation}
     K(x,z)=\psi(x)^T\psi(z)
-\end{equation*}
+\end{equation}
 
 The SVM described above can only distinguish between binary classes.The one-vs-all strategy and the one-vs-one strategy are methods used to expand it to be a multi-class classifier.. In the one-vs-all strategy n classifiers have to be trained which can distinguish one of the n classes against all other classes. In the one-vs-one strategy $\frac{n^2-n}{2}$ classifiers are trained; one classifier for each pair of classes.
 
 \subsection{Markov Random Field (MRF)} MRF maps an image onto an undirected graph where each node is a pair of random variable $(x,y)$ assigned to each pixel and the edges connect adjacent pixels \cite{YU201882}. $x$ represents the class label of a pixel and $y$ represents the RGB value of a pixel. Which means $x$ has a range of ${0...n}$ and y has a range of ${0...255}$ with $n$ being the number of classes.  Every edge is assigned conditional dependencies of its connecting nodes as weight. The probability of $x,y$ can be expressed as:
 
-\begin{equation*}
+\begin{equation}
     P(x,y) = \frac{1}{Z} e^{-E(x,y)
-\end{equation*}
+\end{equation}
 
 \noindent where $Z = \sum_{x,y}e^{-E(x,y)}$ and it is called the partition function whereas E is called the energy function. A commonly used energy function is $E(x,y) = \sum_{c\in C}\psi_{c}(x,y)$, where $\psi$ is called the clique potential \cite{DBLP:journals/corr/Thoma16a}. A thorough presentation of MRF can be found in \cite{markovbook}. 
 
 \subsection{Conditional Random Field (CRF) for Semantic Segmentation} CRF is an extension of MRF. Instead of learning the distribution $P(x,y)$, it chooses to learn $P(x|y)$ \cite{DBLP:journals/corr/Thoma16a}. There are two advantages that CRF has over MRF. The first one being it does not to estimate the distribution of x. The second advantage is the consequence of the first one, as the distribution of x is not being estimated, less computation is required hence making CRF faster than MRF \cite{YU201882}. CRF has the partition function $Z(x)$:
-\begin{equation*}
+\begin{equation}
     Z(x) = \sum_{x} P(x,y)
-\end{equation*}
+\end{equation}
 
 \noindent and the joint probability distribution is given as follows:
 
-\begin{equation*}
+\begin{equation}
     P(y|x) = \frac{1}{Z(x)} \prod_{c \in C}\psi_{c}(y_{c}|x)
-\end{equation*}
+\end{equation}
 
 \noindent CRF is often used in conjunction with neural networks as a post-processing method for semantic segmentation task. It is is used to smoothen the output mask \cite{crf-semantic}.
 
@@ -321,19 +321,19 @@ The self-attention modeule in ViT has $O(n^2) $computational complexity to the n
 \begin{equation}
     \Omega (\mathbf{MSA}) = 4hwC^2 + 2(hw)^2C
 \end{equation}
-While tthe improved computational complexityof W-MSA is linear to the number of patches:
+While the improved computational complexityof W-MSA is linear to the number of patches as shown in the equation below:
 \begin{equation}
     \Omega (\mathbf{W-MSA}) = 4hwC^2 + 2M^2hwC
 \end{equation}
 
-Swin Transformer alternates between two partitioning configurations in consecutive Swin Transformer blocks. As shown figure \ref{fig: swin cyclic}, layer 1 uses regular partitioning while layer 2 uses a windowing configuration shifted by half of the window size. They introduces connections between neighboring windows while keeping the local computation within each non-overlapping window.
+Swin Transformer alternates between two partitioning configurations in consecutive Swin Transformer blocks. As shown figure \ref{fig:swin shifted}, layer 1 uses regular partitioning while layer 2 uses a windowing configuration shifted by half of the window size. They introduces connections between neighboring windows while keeping the local computation within each non-overlapping window.
 
 The main issue with this approach is the number of local windows increased from 4 to 9. For this reason, Swin Transformer uses another mechanism called cyclic shifting. Cyclic shifting shift the image patches toward the top-left direction and then applies a masking mechanism to limit self-attention within adjacent patches. It also utilizes reverse cyclic shifting to cover the other areas. Cyclic shifting is shown in figure \ref{fig:swin cyclic}
 \begin{figure}[ht]
 \includegraphics[width=10.5cm, height=4.5cm]{images/swin-msa1.jpeg}
 \centering
 \caption{Shifted Window Multi-head Self-Attention}
-\label{fig:swin cyclic}
+\label{fig:swin shifted}
 \end{figure}
 
 \begin{figure}[ht]

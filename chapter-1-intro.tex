@@ -1,8 +1,6 @@
 %!TEX ROOT = thesis.tex
 \chapter{INTRODUCTION}
-\section{Background Introduction}
-
-\subsection{Introduction to Semantic Segmentation}
+\section{Introduction to Semantic Segmentation}
 
 The last few years have seen a massive surge in research regarding deep learning applications in computer vision with the most common one being object detection, where a network accept an image as an input and output either a single or multi class label. Typically, the position of detected objects are defined by rectangular coordinates that are represented by bounding boxes. However, in a lot of image processing task, such as in satellite images analysis the target output should include more accurate localization. The bounding box may have more than one objects inside it. To increase its localization, instead of assigning a set of labels to an image, semantic segmentation would label each pixel independently. After each pixel is labelled, a new image, called the mask  will be produced with every pixels being coloured according to its label.
 
@@ -24,7 +22,7 @@ In the 1990s, “object segmentation and recognition”  distinguished semantic 
 \label{fig:airport object detection}
 \end{figure}
 
-\subsection{Introduction to Satellite Images}
+\section{Introduction to Satellite Images}
 
 Satellite images are images of the Earth that are collected by either drones or observation satellites. Observation satellites are satellites that are designed to observe the Earth from orbit while equipped with sensors that measure a range of  electromagnetic spectrum such as UV, visible, infrared, microwave, or radio. 
 
@@ -56,7 +54,7 @@ Band 8                  & 860 - 1040          & \begin{tabular}[c]{@{}l@{}}Overl
 
 Lastly, temporal resolution refers to the time period between capturing two consecutive images of the same surface area. In some literature it is also called the satellite revisit period. An image with a higher temporal resolution has a lower time period between two consecutive images. For example an image with a temporal resolution of two days means that a satellite will capture an image of the same area every two days.  For some satellites, a constellation of satellites are used to increase temporal resolution. As an example the SENTINEL-2 mission actually use 2 satellites with each having a revisit period of 10 days making the temporal resolution to be effectively 5 days. Temporal resolutions are important to detect changes that occur during a specified time period.
 
-\subsection{Applications of Semantic Segmentation of Satellite Images}
+\section{Applications of Semantic Segmentation of Satellite Images}
 
 \begin{enumerate}
     \item \textbf{Land Cover Mapping}
@@ -76,7 +74,7 @@ Lastly, temporal resolution refers to the time period between capturing two cons
     Due to climate change, flooding has quickly becoming one of the most destructive and frequent type of natural disaster, and this trend is expected to continue. Detecting flood prior of its occurrence has been vital to save lives and minimizes financial loss. On top of that, a lot of agencies around the world require a system to assess the total  destruction from flooding. The assessment method is usually done manually using aerial images. Semantic segmentation has been widely used as a tool to aid in the process of designing and deploying accurate flood detection and post-flood assessment system \cite{edseee.988427220220717}. 
 \end{enumerate}
 
-\subsection{Problem Statement}
+\section{Problem Statement}
 
 \begin{enumerate}
     \item All of the datasets studied suffer from class imbalanced meaning that the number of classes in the samples are not equally distributed. This is a very common problem in semantic segmentation task.
@@ -84,16 +82,16 @@ Lastly, temporal resolution refers to the time period between capturing two cons
 \end{enumerate}
 
 
-\subsection{Project Objectives}
+\section{Project Objectives}
 \begin{enumerate}
     \item Identify suitable datasets of satellite images that will be used for training and validation. Multiple datasets will be evaluated and a new dataset would be constructed if necessary.
     \item Design and train a transformer model to perform semantic segmentation using chosen dataset.
     \item Identify appropriate evaluation metrics and use that metrics to evaluate the performance of our model so that we can provide benchmark for future experiments.
 \end{enumerate}
-\subsection{Project Scope}
+\section{Project Scope}
 
 The scope of the dataset used in this project will be limited to satellite images. The chosen dataset must have a spatial resolution that is small enough to avoid any losses of information. On top of that, the dataset must be bigger than 240x240 (px). The dataset must have been taken by a satellite. There is no restriction on the type of bands that the dataset can have.
 
 The scope of the network proposed in this project must be one based on vision transformer.  The vision transformer network must be able to perform semantic segmentation task of satellite images. The performance of the proposed vision transformer network shall be compared to the  previous works trained on the same dataset.
 
-\subsection{Chapter Organization}
+\section{Chapter Organization}
